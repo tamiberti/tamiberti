@@ -6,54 +6,54 @@ const Services = () => {
   const services = [
     {
       icon: User,
-      title: "Individual Therapy",
-      duration: "50 minutes",
-      price: "$150",
-      description: "One-on-one sessions focused on your personal goals and challenges.",
+      title: "Terapia Individual",
+      duration: "50 minutos",
+      price: "R$ 300",
+      description: "Sessões individuais focadas em seus objetivos pessoais e desafios.",
       features: [
-        "Anxiety and depression treatment",
-        "Trauma-informed therapy",
-        "Cognitive behavioral therapy",
-        "Mindfulness-based interventions"
+        "Tratamento de ansiedade e depressão",
+        "Terapia informada sobre trauma",
+        "Terapia cognitivo-comportamental",
+        "Intervenções baseadas em mindfulness"
       ]
     },
     {
       icon: Users,
-      title: "Couples Therapy",
-      duration: "60 minutes",
-      price: "$200",
-      description: "Strengthen your relationship through improved communication and understanding.",
+      title: "Terapia de Casal",
+      duration: "60 minutos",
+      price: "R$ 400",
+      description: "Fortaleça seu relacionamento através de melhor comunicação e compreensão.",
       features: [
-        "Communication skills training",
-        "Conflict resolution strategies",
-        "Intimacy and connection building",
-        "Pre-marital counseling"
+        "Treinamento em habilidades de comunicação",
+        "Estratégias de resolução de conflitos",
+        "Construção de intimidade e conexão",
+        "Aconselhamento pré-matrimonial"
       ]
     },
     {
       icon: Heart,
-      title: "Family Therapy",
-      duration: "60 minutes",
-      price: "$180",
-      description: "Address family dynamics and improve relationships within the family system.",
+      title: "Terapia Familiar",
+      duration: "60 minutos",
+      price: "R$ 360",
+      description: "Abordar dinâmicas familiares e melhorar relacionamentos dentro do sistema familiar.",
       features: [
-        "Parent-child relationship issues",
-        "Blended family challenges",
-        "Adolescent behavioral concerns",
-        "Family communication patterns"
+        "Questões de relacionamento pais-filhos",
+        "Desafios de famílias mistas",
+        "Preocupações comportamentais de adolescentes",
+        "Padrões de comunicação familiar"
       ]
     },
     {
       icon: Brain,
-      title: "Psychological Assessment",
-      duration: "2-3 hours",
-      price: "$400",
-      description: "Comprehensive evaluation to understand cognitive and emotional functioning.",
+      title: "Avaliação Psicológica",
+      duration: "2-3 horas",
+      price: "R$ 800",
+      description: "Avaliação abrangente para entender o funcionamento cognitivo e emocional.",
       features: [
-        "ADHD and learning disability assessment",
-        "Personality assessment",
-        "Cognitive evaluation",
-        "Treatment planning recommendations"
+        "Avaliação de TDAH e dificuldades de aprendizagem",
+        "Avaliação de personalidade",
+        "Avaliação cognitiva",
+        "Recomendações de planejamento de tratamento"
       ]
     }
   ];
@@ -68,10 +68,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Professional Services
+            Serviços Profissionais
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive mental health services tailored to meet your unique needs and support your journey toward wellness.
+            Serviços abrangentes de saúde mental adaptados para atender às suas necessidades únicas e apoiar sua jornada em direção ao bem-estar.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ const Services = () => {
               <CardContent>
                 <p className="text-muted-foreground mb-6">{service.description}</p>
                 <div className="space-y-2">
-                  <h4 className="font-semibold text-foreground">What's included:</h4>
+                  <h4 className="font-semibold text-foreground">O que está incluído:</h4>
                   <ul className="space-y-1">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start">
@@ -117,7 +117,7 @@ const Services = () => {
                   className="w-full mt-6 bg-primary hover:bg-primary-dark text-primary-foreground"
                 >
                   <Calendar className="w-4 h-4 mr-2" />
-                  Schedule Appointment
+                  Agendar Consulta
                 </Button>
               </CardContent>
             </Card>
@@ -127,20 +127,20 @@ const Services = () => {
         {/* Additional Information */}
         <div className="bg-accent/20 rounded-2xl p-8 text-center">
           <h3 className="font-playfair text-2xl font-semibold text-foreground mb-4">
-            Flexible Scheduling & Insurance
+            Agendamento Flexível e Convênios
           </h3>
           <div className="grid md:grid-cols-3 gap-8 mb-6">
             <div>
-              <h4 className="font-semibold text-foreground mb-2">Appointment Times</h4>
-              <p className="text-muted-foreground">Evening and weekend appointments available to accommodate your schedule.</p>
+              <h4 className="font-semibold text-foreground mb-2">Horários de Atendimento</h4>
+              <p className="text-muted-foreground">Consultas noturnas e de fim de semana disponíveis para acomodar sua agenda.</p>
             </div>
             <div>
-              <h4 className="font-semibold text-foreground mb-2">Insurance Accepted</h4>
-              <p className="text-muted-foreground">Most major insurance plans accepted. We'll help verify your coverage.</p>
+              <h4 className="font-semibold text-foreground mb-2">Convênios Aceitos</h4>
+              <p className="text-muted-foreground">Principais planos de saúde aceitos. Ajudaremos a verificar sua cobertura.</p>
             </div>
             <div>
-              <h4 className="font-semibold text-foreground mb-2">Telehealth Options</h4>
-              <p className="text-muted-foreground">Secure online sessions available for your convenience and comfort.</p>
+              <h4 className="font-semibold text-foreground mb-2">Opções de Telemedicina</h4>
+              <p className="text-muted-foreground">Sessões online seguras disponíveis para sua conveniência e conforto.</p>
             </div>
           </div>
           <Button 
@@ -148,7 +148,7 @@ const Services = () => {
             size="lg"
             className="bg-primary hover:bg-primary-dark text-primary-foreground"
           >
-            Contact for Consultation
+            Contato para Consulta
           </Button>
         </div>
       </div>

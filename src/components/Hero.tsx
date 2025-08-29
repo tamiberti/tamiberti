@@ -31,30 +31,30 @@ const Hero = () => {
 
         {/* Main Heading */}
         <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Healing Minds,
+          Curando Mentes,
           <br />
-          <span className="text-secondary-light">Restoring Hope</span>
+          <span className="text-secondary-light">Restaurando Esperança</span>
         </h1>
 
         {/* Subheading */}
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-white/90 font-inter">
-          Professional psychology services with Dr. Tami Berti. 
-          Experience compassionate, evidence-based therapy tailored to your unique journey.
+          Serviços profissionais de psicologia com Dra. Tami Berti. 
+          Experimente terapia compassiva e baseada em evidências, personalizada para sua jornada única.
         </p>
 
         {/* Key Stats */}
         <div className="flex flex-wrap justify-center gap-8 mb-12">
           <div className="text-center">
             <div className="text-3xl font-bold text-secondary-light">15+</div>
-            <div className="text-white/80">Years Experience</div>
+            <div className="text-white/80">Anos de Experiência</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-secondary-light">500+</div>
-            <div className="text-white/80">Clients Helped</div>
+            <div className="text-white/80">Clientes Atendidos</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-secondary-light">95%</div>
-            <div className="text-white/80">Success Rate</div>
+            <div className="text-white/80">Taxa de Sucesso</div>
           </div>
         </div>
 
@@ -66,7 +66,7 @@ const Hero = () => {
             className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-strong text-lg px-8 py-4"
           >
             <Calendar className="mr-2 w-5 h-5" />
-            Schedule Consultation
+            Agendar Consulta
           </Button>
           <Button 
             size="lg"
@@ -74,7 +74,7 @@ const Hero = () => {
             onClick={() => scrollToSection('about')}
             className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm text-lg px-8 py-4"
           >
-            Learn More
+            Saiba Mais
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>

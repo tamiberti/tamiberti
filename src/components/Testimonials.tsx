@@ -7,43 +7,43 @@ const Testimonials = () => {
       name: "Sarah M.",
       location: "Los Angeles, CA",
       rating: 5,
-      text: "Dr. Berti has been instrumental in helping me work through my anxiety. Her compassionate approach and practical strategies have made a significant difference in my daily life. I finally feel like I have the tools to manage my stress effectively.",
-      treatment: "Individual Therapy - Anxiety"
+      text: "Dra. Berti foi fundamental para me ajudar a trabalhar minha ansiedade. Sua abordagem compassiva e estratégias práticas fizeram uma diferença significativa na minha vida diária. Finalmente sinto que tenho as ferramentas para gerenciar meu estresse de forma eficaz.",
+      treatment: "Terapia Individual - Ansiedade"
     },
     {
       name: "Michael & Jennifer R.",
       location: "Santa Monica, CA",
       rating: 5,
-      text: "Our marriage was at a breaking point when we first met Dr. Berti. Through her guidance, we learned to communicate better and rebuild trust. We're now stronger than ever and can't thank her enough for helping us save our relationship.",
-      treatment: "Couples Therapy"
+      text: "Nosso casamento estava à beira do colapso quando conhecemos a Dra. Berti. Através de sua orientação, aprendemos a nos comunicar melhor e reconstruir a confiança. Agora estamos mais fortes do que nunca e não podemos agradecê-la o suficiente por ajudar a salvar nosso relacionamento.",
+      treatment: "Terapia de Casal"
     },
     {
       name: "David L.",
       location: "Beverly Hills, CA",
       rating: 5,
-      text: "After struggling with depression for years, Dr. Berti helped me understand the root causes and develop coping strategies. Her evidence-based approach combined with genuine care made all the difference. I'm living a fuller life now.",
-      treatment: "Individual Therapy - Depression"
+      text: "Após lutar contra a depressão por anos, a Dra. Berti me ajudou a entender as causas raiz e desenvolver estratégias de enfrentamento. Sua abordagem baseada em evidências combinada com cuidado genuíno fez toda a diferença. Estou vivendo uma vida mais plena agora.",
+      treatment: "Terapia Individual - Depressão"
     },
     {
-      name: "The Johnson Family",
+      name: "A Família Johnson",
       location: "Pasadena, CA",
       rating: 5,
-      text: "Dr. Berti helped our family navigate a difficult time when our teenager was struggling. Her family therapy sessions improved our communication and brought us closer together. We're grateful for her expertise and patience.",
-      treatment: "Family Therapy"
+      text: "Dra. Berti ajudou nossa família a navegar por um momento difícil quando nosso adolescente estava passando por dificuldades. Suas sessões de terapia familiar melhoraram nossa comunicação e nos aproximaram. Somos gratos por sua expertise e paciência.",
+      treatment: "Terapia Familiar"
     },
     {
       name: "Emma K.",
       location: "Manhattan Beach, CA",
       rating: 5,
-      text: "The psychological assessment Dr. Berti conducted was thorough and insightful. Finally understanding my ADHD has been life-changing. Her recommendations have helped me succeed in ways I never thought possible.",
-      treatment: "Psychological Assessment"
+      text: "A avaliação psicológica que a Dra. Berti conduziu foi completa e esclarecedora. Finalmente entender meu TDAH mudou minha vida. Suas recomendações me ajudaram a ter sucesso de maneiras que nunca pensei serem possíveis.",
+      treatment: "Avaliação Psicológica"
     },
     {
       name: "Robert S.",
       location: "West Hollywood, CA",
       rating: 5,
-      text: "Dr. Berti's trauma-informed approach helped me process experiences I thought I'd never overcome. Her safe and supportive environment allowed me to heal at my own pace. I'm now able to move forward with confidence.",
-      treatment: "Trauma Therapy"
+      text: "A abordagem informada sobre trauma da Dra. Berti me ajudou a processar experiências que pensei que nunca conseguiria superar. Seu ambiente seguro e acolhedor me permitiu curar no meu próprio ritmo. Agora consigo seguir em frente com confiança.",
+      treatment: "Terapia de Trauma"
     }
   ];
 
@@ -63,10 +63,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Client Testimonials
+            Depoimentos de Clientes
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real stories from clients who have experienced positive transformation through therapy.
+            Histórias reais de clientes que experimentaram transformação positiva através da terapia.
           </p>
         </div>
 
@@ -75,19 +75,19 @@ const Testimonials = () => {
           <Card className="text-center shadow-soft bg-gradient-card border-0">
             <CardContent className="p-8">
               <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Clients Served</div>
+              <div className="text-muted-foreground">Clientes Atendidos</div>
             </CardContent>
           </Card>
           <Card className="text-center shadow-soft bg-gradient-card border-0">
             <CardContent className="p-8">
               <div className="text-4xl font-bold text-primary mb-2">95%</div>
-              <div className="text-muted-foreground">Client Satisfaction</div>
+              <div className="text-muted-foreground">Satisfação do Cliente</div>
             </CardContent>
           </Card>
           <Card className="text-center shadow-soft bg-gradient-card border-0">
             <CardContent className="p-8">
               <div className="text-4xl font-bold text-primary mb-2">15+</div>
-              <div className="text-muted-foreground">Years Experience</div>
+              <div className="text-muted-foreground">Anos de Experiência</div>
             </CardContent>
           </Card>
         </div>
@@ -136,14 +136,14 @@ const Testimonials = () => {
           <Card className="inline-block shadow-medium bg-gradient-card border-0 p-8">
             <CardContent className="p-0">
               <h3 className="font-playfair text-2xl font-semibold text-foreground mb-4">
-                Ready to Start Your Journey?
+                Pronta para Começar Sua Jornada?
               </h3>
               <p className="text-muted-foreground mb-6 max-w-md">
-                Join hundreds of clients who have found healing and growth through compassionate, professional therapy.
+                Junte-se a centenas de clientes que encontraram cura e crescimento através de terapia compassiva e profissional.
               </p>
               <div className="text-sm text-muted-foreground">
-                <p className="mb-2">* Client names have been changed to protect privacy</p>
-                <p>All testimonials are from actual clients with written consent</p>
+                <p className="mb-2">* Os nomes dos clientes foram alterados para proteger a privacidade</p>
+                <p>Todos os depoimentos são de clientes reais com consentimento por escrito</p>
               </div>
             </CardContent>
           </Card>

@@ -36,8 +36,8 @@ const Contact = () => {
     await new Promise(resolve => setTimeout(resolve, 1000));
     
     toast({
-      title: "Message Sent Successfully!",
-      description: "Thank you for reaching out. I'll get back to you within 24 hours.",
+      title: "Mensagem Enviada com Sucesso!",
+      description: "Obrigada por entrar em contato. Retornarei em até 24 horas.",
     });
     
     setFormData({
@@ -63,10 +63,10 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Get in Touch
+            Entre em Contato
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to begin your journey toward better mental health? I'm here to help and answer any questions you may have.
+            Pronta para começar sua jornada em direção a uma melhor saúde mental? Estou aqui para ajudar e responder qualquer pergunta que você possa ter.
           </p>
         </div>
 
@@ -75,16 +75,16 @@ const Contact = () => {
           <div className="lg:col-span-1 space-y-6">
             <Card className="shadow-medium bg-gradient-card border-0">
               <CardHeader>
-                <CardTitle className="font-playfair text-xl text-foreground">Contact Information</CardTitle>
+                <CardTitle className="font-playfair text-xl text-foreground">Informações de Contato</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <MapPin className="w-5 h-5 text-primary mt-1" />
                   <div>
-                    <p className="font-semibold text-foreground">Office Location</p>
+                    <p className="font-semibold text-foreground">Localização do Consultório</p>
                     <p className="text-muted-foreground">
-                      1234 Wellness Blvd, Suite 200<br />
-                      Beverly Hills, CA 90210
+                      Rua do Bem-Estar, 1234, Sala 200<br />
+                      São Paulo, SP 01234-567
                     </p>
                   </div>
                 </div>
@@ -92,9 +92,9 @@ const Contact = () => {
                 <div className="flex items-start space-x-4">
                   <Phone className="w-5 h-5 text-primary mt-1" />
                   <div>
-                    <p className="font-semibold text-foreground">Phone</p>
-                    <p className="text-muted-foreground">(555) 123-4567</p>
-                    <p className="text-sm text-muted-foreground">Text messages welcome</p>
+                    <p className="font-semibold text-foreground">Telefone</p>
+                    <p className="text-muted-foreground">(11) 99999-9999</p>
+                    <p className="text-sm text-muted-foreground">Mensagens de WhatsApp bem-vindas</p>
                   </div>
                 </div>
 
@@ -102,19 +102,19 @@ const Contact = () => {
                   <Mail className="w-5 h-5 text-primary mt-1" />
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
-                    <p className="text-muted-foreground">hello@tamiberti.com</p>
+                    <p className="text-muted-foreground">contato@tamiberti.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <Clock className="w-5 h-5 text-primary mt-1" />
                   <div>
-                    <p className="font-semibold text-foreground">Office Hours</p>
+                    <p className="font-semibold text-foreground">Horário de Funcionamento</p>
                     <div className="text-muted-foreground space-y-1">
-                      <p>Monday - Thursday: 9:00 AM - 7:00 PM</p>
-                      <p>Friday: 9:00 AM - 5:00 PM</p>
-                      <p>Saturday: 10:00 AM - 3:00 PM</p>
-                      <p className="text-sm">Evening appointments available</p>
+                      <p>Segunda - Quinta: 9:00 - 19:00</p>
+                      <p>Sexta: 9:00 - 17:00</p>
+                      <p>Sábado: 10:00 - 15:00</p>
+                      <p className="text-sm">Consultas noturnas disponíveis</p>
                     </div>
                   </div>
                 </div>
@@ -127,14 +127,14 @@ const Contact = () => {
                 <div className="flex items-start space-x-3">
                   <Shield className="w-5 h-5 text-destructive mt-1" />
                   <div>
-                    <p className="font-semibold text-destructive mb-2">Crisis Support</p>
+                    <p className="font-semibold text-destructive mb-2">Apoio em Crise</p>
                     <p className="text-sm text-muted-foreground mb-3">
-                      If you're experiencing a mental health emergency, please contact:
+                      Se você está passando por uma emergência de saúde mental, entre em contato:
                     </p>
                     <div className="space-y-1 text-sm">
-                      <p><strong>911</strong> - Emergency Services</p>
-                      <p><strong>988</strong> - Suicide & Crisis Lifeline</p>
-                      <p><strong>(855) 582-7474</strong> - LA County Crisis Line</p>
+                      <p><strong>192</strong> - Serviços de Emergência</p>
+                      <p><strong>188</strong> - Centro de Valorização da Vida</p>
+                      <p><strong>(11) 3151-1948</strong> - Centro de Atenção Psicossocial</p>
                     </div>
                   </div>
                 </div>
@@ -146,9 +146,9 @@ const Contact = () => {
           <div className="lg:col-span-2">
             <Card className="shadow-medium bg-gradient-card border-0">
               <CardHeader>
-                <CardTitle className="font-playfair text-xl text-foreground">Send a Message</CardTitle>
+                <CardTitle className="font-playfair text-xl text-foreground">Envie uma Mensagem</CardTitle>
                 <p className="text-muted-foreground">
-                  Fill out the form below and I'll get back to you within 24 hours to schedule a consultation.
+                  Preencha o formulário abaixo e retornarei em até 24 horas para agendar uma consulta.
                 </p>
               </CardHeader>
               <CardContent>
@@ -156,7 +156,7 @@ const Contact = () => {
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Full Name *
+                        Nome Completo *
                       </label>
                       <Input
                         name="name"
@@ -164,12 +164,12 @@ const Contact = () => {
                         onChange={handleInputChange}
                         required
                         className="w-full"
-                        placeholder="Your full name"
+                        placeholder="Seu nome completo"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Email Address *
+                        Endereço de Email *
                       </label>
                       <Input
                         type="email"
@@ -178,7 +178,7 @@ const Contact = () => {
                         onChange={handleInputChange}
                         required
                         className="w-full"
-                        placeholder="your.email@example.com"
+                        placeholder="seu.email@exemplo.com"
                       />
                     </div>
                   </div>
@@ -186,7 +186,7 @@ const Contact = () => {
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Phone Number
+                        Número de Telefone
                       </label>
                       <Input
                         type="tel"
@@ -194,12 +194,12 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleInputChange}
                         className="w-full"
-                        placeholder="(555) 123-4567"
+                        placeholder="(11) 99999-9999"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Preferred Contact Method
+                        Método de Contato Preferido
                       </label>
                       <select
                         name="preferredContact"
@@ -208,15 +208,15 @@ const Contact = () => {
                         className="w-full px-3 py-2 border border-input rounded-md bg-background"
                       >
                         <option value="email">Email</option>
-                        <option value="phone">Phone Call</option>
-                        <option value="text">Text Message</option>
+                        <option value="phone">Ligação</option>
+                        <option value="text">WhatsApp</option>
                       </select>
                     </div>
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
-                      Type of Service Interested In
+                      Tipo de Serviço de Interesse
                     </label>
                     <select
                       name="sessionType"
@@ -224,18 +224,18 @@ const Contact = () => {
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-input rounded-md bg-background"
                     >
-                      <option value="">Select a service</option>
-                      <option value="individual">Individual Therapy</option>
-                      <option value="couples">Couples Therapy</option>
-                      <option value="family">Family Therapy</option>
-                      <option value="assessment">Psychological Assessment</option>
-                      <option value="consultation">Consultation</option>
+                      <option value="">Selecione um serviço</option>
+                      <option value="individual">Terapia Individual</option>
+                      <option value="couples">Terapia de Casal</option>
+                      <option value="family">Terapia Familiar</option>
+                      <option value="assessment">Avaliação Psicológica</option>
+                      <option value="consultation">Consulta</option>
                     </select>
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
-                      Message
+                      Mensagem
                     </label>
                     <Textarea
                       name="message"
@@ -243,7 +243,7 @@ const Contact = () => {
                       onChange={handleInputChange}
                       rows={5}
                       className="w-full"
-                      placeholder="Tell me a bit about what brings you here and what you're hoping to work on..."
+                      placeholder="Conte-me um pouco sobre o que a trouxe aqui e em que você espera trabalhar..."
                     />
                   </div>
 
@@ -252,10 +252,10 @@ const Contact = () => {
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5" />
                       <div className="text-sm text-muted-foreground">
-                        <p className="font-medium text-foreground mb-1">Your Privacy is Protected</p>
+                        <p className="font-medium text-foreground mb-1">Sua Privacidade está Protegida</p>
                         <p>
-                          All communications are confidential and HIPAA compliant. This initial contact 
-                          does not establish a therapist-client relationship.
+                          Todas as comunicações são confidenciais e compatíveis com LGPD. Este contato inicial 
+                          não estabelece uma relação terapeuta-cliente.
                         </p>
                       </div>
                     </div>
@@ -269,12 +269,12 @@ const Contact = () => {
                     {isSubmitting ? (
                       <>
                         <MessageCircle className="mr-2 w-4 h-4 animate-spin" />
-                        Sending Message...
+                        Enviando Mensagem...
                       </>
                     ) : (
                       <>
                         <Calendar className="mr-2 w-4 h-4" />
-                        Send Message & Request Consultation
+                        Enviar Mensagem e Solicitar Consulta
                       </>
                     )}
                   </Button>
@@ -286,16 +286,16 @@ const Contact = () => {
             <div className="mt-8 grid md:grid-cols-2 gap-6">
               <Card className="shadow-soft bg-gradient-card border-0">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold text-foreground mb-3">Insurance & Payment</h3>
+                  <h3 className="font-semibold text-foreground mb-3">Convênios e Pagamento</h3>
                   <div className="space-y-2">
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline" className="text-xs">Aetna</Badge>
-                      <Badge variant="outline" className="text-xs">Blue Cross</Badge>
-                      <Badge variant="outline" className="text-xs">Cigna</Badge>
-                      <Badge variant="outline" className="text-xs">UnitedHealth</Badge>
+                      <Badge variant="outline" className="text-xs">Unimed</Badge>
+                      <Badge variant="outline" className="text-xs">Bradesco Saúde</Badge>
+                      <Badge variant="outline" className="text-xs">SulAmérica</Badge>
+                      <Badge variant="outline" className="text-xs">Amil</Badge>
                     </div>
                     <p className="text-sm text-muted-foreground">
-                      Self-pay and sliding scale options available
+                      Opções de pagamento particular e escala móvel disponíveis
                     </p>
                   </div>
                 </CardContent>
@@ -303,12 +303,12 @@ const Contact = () => {
 
               <Card className="shadow-soft bg-gradient-card border-0">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold text-foreground mb-3">Getting Started</h3>
+                  <h3 className="font-semibold text-foreground mb-3">Primeiros Passos</h3>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• Free 15-minute consultation call</li>
-                    <li>• Comprehensive intake session</li>
-                    <li>• Personalized treatment planning</li>
-                    <li>• Flexible scheduling options</li>
+                    <li>• Consulta gratuita de 15 minutos</li>
+                    <li>• Sessão de avaliação abrangente</li>
+                    <li>• Planejamento de tratamento personalizado</li>
+                    <li>• Opções flexíveis de agendamento</li>
                   </ul>
                 </CardContent>
               </Card>

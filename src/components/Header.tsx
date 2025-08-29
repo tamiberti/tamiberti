@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="font-playfair font-semibold text-xl text-foreground">Tami Berti</h1>
-              <p className="text-sm text-muted-foreground">Clinical Psychologist</p>
+              <p className="text-sm text-muted-foreground">Psicóloga Clínica</p>
             </div>
           </div>
 
@@ -32,37 +32,37 @@ const Header = () => {
               onClick={() => scrollToSection('home')}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Home
+              Início
             </button>
             <button
               onClick={() => scrollToSection('about')}
               className="text-foreground hover:text-primary transition-colors"
             >
-              About
+              Sobre
             </button>
             <button
               onClick={() => scrollToSection('services')}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Services
+              Serviços
             </button>
             <button
               onClick={() => scrollToSection('resume')}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Resume
+              Currículo
             </button>
             <button
               onClick={() => scrollToSection('testimonials')}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Testimonials
+              Depoimentos
             </button>
             <button
               onClick={() => scrollToSection('contact')}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Contact
+              Contato
             </button>
           </nav>
 
@@ -72,7 +72,7 @@ const Header = () => {
               onClick={() => scrollToSection('contact')}
               className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-soft"
             >
-              Book Appointment
+              Agendar Consulta
             </Button>
           </div>
 
@@ -93,43 +93,43 @@ const Header = () => {
                 onClick={() => scrollToSection('home')}
                 className="text-foreground hover:text-primary transition-colors text-left"
               >
-                Home
+                Início
               </button>
               <button
                 onClick={() => scrollToSection('about')}
                 className="text-foreground hover:text-primary transition-colors text-left"
               >
-                About
+                Sobre
               </button>
               <button
                 onClick={() => scrollToSection('services')}
                 className="text-foreground hover:text-primary transition-colors text-left"
               >
-                Services
+                Serviços
               </button>
               <button
                 onClick={() => scrollToSection('resume')}
                 className="text-foreground hover:text-primary transition-colors text-left"
               >
-                Resume
+                Currículo
               </button>
               <button
                 onClick={() => scrollToSection('testimonials')}
                 className="text-foreground hover:text-primary transition-colors text-left"
               >
-                Testimonials
+                Depoimentos
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
                 className="text-foreground hover:text-primary transition-colors text-left"
               >
-                Contact
+                Contato
               </button>
               <Button 
                 onClick={() => scrollToSection('contact')}
                 className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-soft mt-4"
               >
-                Book Appointment
+                Agendar Consulta
               </Button>
             </nav>
           </div>
