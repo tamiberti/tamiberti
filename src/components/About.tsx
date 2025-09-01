@@ -1,55 +1,46 @@
-import { Card, CardContent } from "@/components/ui/card";
-
 const About = () => {
   return (
-    <section id="about" className="py-20">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="font-playfair text-4xl md:text-5xl font-light text-foreground mb-6">
-              Quem Sou Eu
-            </h2>
-            <div className="w-16 h-px bg-primary mx-auto"></div>
+    <section id="about" className="py-32 px-6">
+      <div className="container mx-auto max-w-4xl">
+        <div className="space-y-16">
+          {/* Section Title */}
+          <h2 className="font-playfair text-5xl md:text-6xl font-light text-center">
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              Sobre Mim
+            </span>
+          </h2>
+
+          {/* Content */}
+          <div className="space-y-8 text-lg md:text-xl leading-relaxed text-center max-w-3xl mx-auto">
+            <p className="text-foreground">
+              Oi, que coisa boa ter você por aqui!
+            </p>
+            
+            <p className="text-muted-foreground">
+              Me chamo Tami Berti, sou psicóloga clínica formada pela Universidade de São Paulo. 
+              Meu trabalho é fortalecer nossa relação terapêutica e estar ao seu lado nos 
+              momentos de dificuldade e ao longo do seu crescimento pessoal.
+            </p>
+            
+            <p className="text-muted-foreground">
+              Especializo-me em Terapia Cognitivo-Comportamental, oferecendo um atendimento 
+              sensível e personalizado. A psicoterapia pode ser um espaço de acolhimento 
+              e transformação, sempre baseada em evidências científicas.
+            </p>
+            
+            <p className="text-foreground font-light">
+              Conta comigo!
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <p className="text-lg text-foreground leading-relaxed">
-                Sou Tami Berti, psicóloga formada pela Universidade de São Paulo com 
-                especialização em Terapia Cognitivo-Comportamental e mais de 8 anos 
-                de experiência clínica.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Acredito que cada pessoa tem em si a capacidade de crescimento e 
-                transformação. Meu trabalho é oferecer um espaço seguro e acolhedor 
-                onde você possa explorar seus pensamentos e sentimentos.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Especializo-me no atendimento de adultos e adolescentes, com foco 
-                em ansiedade, depressão, relacionamentos e desenvolvimento pessoal.
-              </p>
-            </div>
-            
-            <Card className="shadow-soft bg-gradient-card border-0">
-              <CardContent className="p-8">
-                <h3 className="font-playfair text-xl text-foreground mb-6">Formação</h3>
-                <div className="space-y-4">
-                  <div>
-                    <p className="font-medium text-foreground">Psicologia</p>
-                    <p className="text-sm text-muted-foreground">Universidade de São Paulo (USP)</p>
-                    <p className="text-sm text-muted-foreground">CRP 06/123456</p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground">Especialização TCC</p>
-                    <p className="text-sm text-muted-foreground">Instituto de Terapia Cognitiva</p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground">Experiência</p>
-                    <p className="text-sm text-muted-foreground">8+ anos de prática clínica</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+          {/* Simple Credentials */}
+          <div className="text-center space-y-2 pt-8">
+            <p className="text-sm text-muted-foreground">
+              Formada pela USP • CRP 06/123456
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Especialização em Terapia Cognitivo-Comportamental
+            </p>
           </div>
         </div>
       </div>
