@@ -10,7 +10,7 @@ const Hero = () => {
           {/* Large Typography Logo Style */}
           <div className="space-y-4">
             <h1 className="font-playfair text-8xl md:text-9xl lg:text-[12rem] font-light leading-none">
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent text-base">Tami Berti</span>
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent text-7xl">Tami Berti</span>
             </h1>
             <div className="font-playfair text-4xl md:text-5xl lg:text-6xl font-light text-accent/80 -mt-8">Berti</div>
           </div>
