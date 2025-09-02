@@ -19,7 +19,7 @@ const Curriculum = () => {
               </h3>
               <div className="space-y-2">
                 <p className="text-lg text-muted-foreground font-light tracking-wide">
-                  Psicologia - Universidade de São Paulo (USP)
+                  Psicologia - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
                 </p>
                 <p className="text-muted-foreground font-light tracking-wide">
                   Graduação em Psicologia Clínica
