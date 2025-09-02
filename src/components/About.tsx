@@ -11,30 +11,30 @@ const About = () => {
 
           {/* Content */}
           <div className="space-y-8 text-lg md:text-xl leading-relaxed text-center max-w-3xl mx-auto">
-            <p className="text-foreground">
+            <p className="text-muted-foreground font-light tracking-wide">
               Oi, que coisa boa ter você por aqui!
             </p>
             
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground font-light tracking-wide">
               Me chamo Tami Berti, sou psicóloga clínica formada pela Universidade de São Paulo. 
               Meu trabalho é fortalecer nossa relação terapêutica e estar ao seu lado nos 
               momentos de dificuldade e ao longo do seu crescimento pessoal.
             </p>
             
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground font-light tracking-wide">
               Especializo-me em Terapia Cognitivo-Comportamental, oferecendo um atendimento 
               sensível e personalizado. A psicoterapia pode ser um espaço de acolhimento 
               e transformação, sempre baseada em evidências científicas.
             </p>
             
-            <p className="text-foreground font-light">
+            <p className="text-muted-foreground font-light tracking-wide">
               Conta comigo!
             </p>
           </div>
 
           {/* Simple Credentials */}
           <div className="text-center space-y-2 pt-8">
-            <p className="text-sm text-muted-foreground"> CRP 07/34490</p>
+            <p className="text-sm text-muted-foreground font-light tracking-wide">CRP 07/34490</p>
             
           </div>
         </div>

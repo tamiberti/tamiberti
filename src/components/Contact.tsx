@@ -12,14 +12,14 @@ const Contact = () => {
 
           {/* Simple Contact Info */}
           <div className="space-y-8">
-            <p className="text-xl md:text-2xl text-muted-foreground font-light">
+            <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide">
               Vamos conversar? Entre em contato comigo.
             </p>
             
             <div className="space-y-4 text-lg">
-              <p className="text-foreground">📧 tamisberti@gmail.com.br</p>
-              <p className="text-foreground">📱 (51) 992188634</p>
-              <p className="text-muted-foreground text-base">
+              <p className="text-muted-foreground font-light tracking-wide">📧 tamisberti@gmail.com.br</p>
+              <p className="text-muted-foreground font-light tracking-wide">📱 (51) 992188634</p>
+              <p className="text-muted-foreground font-light tracking-wide text-base">
             </p>
             </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
 
           {/* Footer Note */}
           <div className="pt-12 border-t border-border">
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground font-light tracking-wide">
               CRP 06/123456 • Atendimento conforme o Código de Ética Profissional do Psicólogo
             </p>
           </div>

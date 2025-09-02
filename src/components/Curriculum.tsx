@@ -18,10 +18,10 @@ const Curriculum = () => {
                 Formação
               </h3>
               <div className="space-y-2">
-                <p className="text-lg text-foreground">
+                <p className="text-lg text-muted-foreground font-light tracking-wide">
                   Psicologia - Universidade de São Paulo (USP)
                 </p>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground font-light tracking-wide">
                   Graduação em Psicologia Clínica
                 </p>
               </div>
@@ -33,10 +33,10 @@ const Curriculum = () => {
                 Especialização
               </h3>
               <div className="space-y-2">
-                <p className="text-lg text-foreground">
+                <p className="text-lg text-muted-foreground font-light tracking-wide">
                   Terapia Cognitivo-Comportamental
                 </p>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground font-light tracking-wide">
                   Abordagem baseada em evidências científicas
                 </p>
               </div>
@@ -48,10 +48,10 @@ const Curriculum = () => {
                 Registro Profissional
               </h3>
               <div className="space-y-2">
-                <p className="text-lg text-foreground">
+                <p className="text-lg text-muted-foreground font-light tracking-wide">
                   CRP 07/34490
                 </p>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground font-light tracking-wide">
                   Conselho Regional de Psicologia - Rio Grande do Sul
                 </p>
               </div>
