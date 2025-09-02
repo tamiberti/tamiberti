@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
-
 const Contact = () => {
-  return (
-    <section id="contact" className="py-32 px-6">
+  return <section id="contact" className="py-32 px-6">
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-16 text-center">
           {/* Section Title */}
@@ -19,23 +17,15 @@ const Contact = () => {
             </p>
             
             <div className="space-y-4 text-lg">
-              <p className="text-foreground">
-                📧 contato@tamiberti.com.br
-              </p>
-              <p className="text-foreground">
-                📱 (11) 99999-9999
-              </p>
+              <p className="text-foreground">📧 tamisberti@gmail.com.br</p>
+              <p className="text-foreground">📱 (51) 992188634</p>
               <p className="text-muted-foreground text-base">
-                São Paulo, SP • Atendimento presencial e online
-              </p>
+            </p>
             </div>
 
             {/* Simple CTA Button */}
             <div className="pt-8">
-              <Button 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-4 text-lg font-light rounded-full"
-                onClick={() => window.open('https://wa.me/5511999999999?text=Olá, gostaria de agendar uma consulta', '_blank')}
-              >
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-4 text-lg font-light rounded-full" onClick={() => window.open('https://wa.me/5511999999999?text=Olá, gostaria de agendar uma consulta', '_blank')}>
                 Agende sua consulta
               </Button>
             </div>
@@ -49,8 +39,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;

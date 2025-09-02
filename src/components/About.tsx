@@ -1,6 +1,5 @@
 const About = () => {
-  return (
-    <section id="about" className="py-32 px-6">
+  return <section id="about" className="py-32 px-6">
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-16">
           {/* Section Title */}
@@ -35,17 +34,11 @@ const About = () => {
 
           {/* Simple Credentials */}
           <div className="text-center space-y-2 pt-8">
-            <p className="text-sm text-muted-foreground">
-              Formada pela USP • CRP 06/123456
-            </p>
-            <p className="text-sm text-muted-foreground">
-              Especialização em Terapia Cognitivo-Comportamental
-            </p>
+            <p className="text-sm text-muted-foreground"> CRP 07/34490</p>
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
