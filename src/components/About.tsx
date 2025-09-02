@@ -1,5 +1,5 @@
 const About = () => {
-  return <section id="about" className="py-32 px-6">
+  return <section id="about" className="py-32 px-6 transition-all duration-1000 ease-in-out">
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-16">
           {/* Section Title */}
