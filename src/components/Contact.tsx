@@ -4,29 +4,38 @@ const Contact = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-16 text-center">
           {/* Section Title */}
-          <div className="text-left">
-            <h2 className="font-playfair text-3xl md:text-4xl font-light text-center">
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent text-center">Contato</span>
-            </h2>
-          </div>
+          <h2 className="font-playfair text-5xl md:text-6xl font-light">
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              Contato
+            </span>
+          </h2>
 
           {/* Simple Contact Info */}
-          <div className="space-y-8 text-left max-w-3xl">
-            <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide text-center">
+          <div className="space-y-8">
+            <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide">
               Vamos conversar? Entre em contato comigo.
             </p>
             
             <div className="space-y-4 text-lg">
-              <p className="text-muted-foreground font-light tracking-wide text-center">📧 tamisberti@gmail.com.br</p>
-              <p className="text-muted-foreground font-light tracking-wide text-center">📱 (51) 992188634</p>
+              <p className="text-muted-foreground font-light tracking-wide">📧 tamisberti@gmail.com.br</p>
+              <p className="text-muted-foreground font-light tracking-wide">📱 (51) 992188634</p>
+              <p className="text-muted-foreground font-light tracking-wide text-base">
+            </p>
             </div>
 
             {/* Simple CTA Button */}
             <div className="pt-8">
-              <Button onClick={() => window.open('https://wa.me/5551992188634?text=Olá%2C+gostaria+de+agendar+uma+consulta', '_blank')} className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-4 text-lg font-light rounded-full text-center">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-4 text-lg font-light rounded-full" onClick={() => window.open('https://wa.me/5511999999999?text=Olá, gostaria de agendar uma consulta', '_blank')}>
                 Agende sua consulta
               </Button>
             </div>
+          </div>
+
+          {/* Footer Note */}
+          <div className="pt-12 border-t border-border">
+            <p className="text-sm text-muted-foreground font-light tracking-wide">
+              CRP 06/123456 • Atendimento conforme o Código de Ética Profissional do Psicólogo
+            </p>
           </div>
         </div>
       </div>
