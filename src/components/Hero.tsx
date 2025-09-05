@@ -4,7 +4,7 @@ const Hero = () => {
       behavior: 'smooth'
     });
   };
-  return <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted transition-all duration-1000 ease-in-out">
+  return <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted opacity-0 animate-fade-in transition-all duration-1000 ease-in-out">
       <div className="container mx-auto px-6 text-center max-w-5xl">
         <div className="space-y-16">
           {/* Large Typography Logo Style */}

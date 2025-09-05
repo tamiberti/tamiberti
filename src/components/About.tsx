@@ -1,10 +1,10 @@
 const About = () => {
-  return <section id="about" className="py-32 px-6">
+  return <section id="about" className="py-32 px-6 opacity-0 animate-fade-in transition-all duration-1000 ease-in-out">
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-16">
           {/* Section Title */}
           <div className="text-left">
-            <h2 className="font-playfair text-3xl md:text-4xl font-light">
+            <h2 className="font-light text-2xl md:text-3xl tracking-wide">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Sobre mim
               </span>
@@ -36,27 +36,27 @@ const About = () => {
           <div className="space-y-12 max-w-3xl">
             {/* Education */}
             <div className="space-y-4">
-              <h3 className="font-playfair text-2xl md:text-3xl font-light text-left">
+              <h3 className="font-light text-2xl md:text-3xl tracking-wide text-left">
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   Formação
                 </span>
               </h3>
               <div className="space-y-4">
                 <p className="text-muted-foreground font-light tracking-wide">
-                  Graduação em Psicologia - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+                  Graduação em Psicologia - PUCRS
                 </p>
                 <p className="text-muted-foreground font-light tracking-wide">
-                  Esp. em Urgência e Emergência - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+                  Esp. em Urgência e Emergência - PUCRS
                 </p>
                 <p className="text-muted-foreground font-light tracking-wide">
-                  Esp. em Terapia Sistêmica - Centro de Estudos da Família e do Indivíduo (CEFI)
+                  Esp. em Terapia Sistêmica - CEFI
                 </p>
               </div>
             </div>
 
             {/* Registration */}
             <div className="space-y-4">
-              <h3 className="font-playfair text-2xl md:text-3xl font-light text-left">
+              <h3 className="font-light text-2xl md:text-3xl tracking-wide text-left">
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   Registro Profissional
                 </span>
@@ -66,7 +66,7 @@ const About = () => {
                   CRP 07/34490
                 </p>
                 <p className="text-muted-foreground font-light tracking-wide">
-                  Conselho Regional de Psicologia - Rio Grande do Sul
+                  Conselho Regional de Psicologia - RS
                 </p>
               </div>
             </div>
