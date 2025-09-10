@@ -1,6 +1,5 @@
 const About = () => {
-  return (
-    <section id="about" className="py-32 px-6 animate-fade-in transition-all duration-1000 ease-in-out">
+  return <section id="about" className="py-32 px-6 animate-fade-in transition-all duration-1000 ease-in-out">
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-16">
           {/* Section Title */}
@@ -12,7 +11,7 @@ const About = () => {
 
           {/* Content */}
           <div className="space-y-6 text-lg leading-relaxed text-left max-w-3xl">
-            <p className="text-foreground font-light tracking-wide">
+            <p className="tracking-wide text-red-950 text-3xl font-light">
               Oi, que bom te ter por aqui!
             </p>
             
@@ -71,8 +70,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
