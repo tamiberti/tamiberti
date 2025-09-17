@@ -19,7 +19,7 @@ const Contact = () => {
 
             {/* Simple CTA Button */}
             <div className="pt-8">
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-4 text-lg font-light rounded-full" onClick={() => window.open('https://wa.me/5551992188634?text=Olá%2C+gostaria+de+agendar+uma+consulta', '_blank')}>
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-4 text-lg font-light rounded-full transition-all duration-300 hover:scale-105" onClick={() => window.open('https://wa.me/5551992188634?text=Olá%2C+gostaria+de+agendar+uma+consulta', '_blank')}>
                 Agende sua consulta
               </Button>
             </div>
