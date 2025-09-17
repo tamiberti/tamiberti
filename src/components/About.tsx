@@ -11,7 +11,7 @@ const About = () => {
 
           {/* Content */}
           <div className="space-y-6 text-lg leading-relaxed text-left max-w-3xl">
-            <p className="tracking-wide text-3xl font-light text-yellow-800">
+            <p className="tracking-wide text-3xl font-light text-slate-700">
               Oi, que bom te ter por aqui!
             </p>
             
@@ -31,7 +31,7 @@ A partir daí, seguimos com o processo terapêutico, no qual construímos, passo
           </div>
 
           {/* Formação Section */}
-          <div className="space-y-12">
+          <div className="space-y-12 text-slate-500">
             <h3 className="text-2xl md:text-3xl font-light text-left text-primary">
               Formação
             </h3>
