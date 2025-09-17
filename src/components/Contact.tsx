@@ -5,16 +5,12 @@ const Contact = () => {
         <div className="space-y-16 text-center">
           {/* Section Title */}
           <h2 className="text-3xl md:text-4xl font-light">
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Contato
-            </span>
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Entre em contato</span>
           </h2>
 
           {/* Simple Contact Info */}
           <div className="space-y-8">
-            <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide">
-              Vamos conversar? Entre em contato comigo.
-            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide">Vamos conversar? </p>
             
             <div className="space-y-4 text-lg">
               <p className="text-muted-foreground font-light tracking-wide">📧 tamisberti@gmail.com.br</p>
