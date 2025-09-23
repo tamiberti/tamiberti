@@ -11,26 +11,26 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-center h-20">
           {/* Simple centered navigation */}
           <nav className="flex space-x-12 text-lg">
             <button 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-primary hover:text-primary/80 transition-colors font-light"
+              className="text-primary-foreground hover:text-primary-foreground/80 transition-colors font-light"
             >
               Início
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-primary hover:text-primary/80 transition-colors font-light"
+              className="text-primary-foreground hover:text-primary-foreground/80 transition-colors font-light"
             >
               Sobre mim
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-primary hover:text-primary/80 transition-colors font-light"
+              className="text-primary-foreground hover:text-primary-foreground/80 transition-colors font-light"
             >
               Contato
             </button>
