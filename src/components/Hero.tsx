@@ -9,14 +9,14 @@ const Hero = () => {
         <div className="space-y-16">
           {/* Large Typography Logo Style */}
           <div className="space-y-4">
-            <h1 className="font-playfair text-8xl md:text-9xl lg:text-[12rem] font-light leading-none">
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent text-7xl">TAMI BERTI</span>
+            <h1 className="font-cormorant text-6xl md:text-7xl lg:text-8xl font-light leading-none tracking-wide">
+              <span className="text-primary">TAMI BERTI</span>
             </h1>
             
           </div>
           
           {/* Simple subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide">Psicóloga Clínica</p>
+          <p className="font-cormorant text-xl md:text-2xl text-muted-foreground font-light tracking-wide italic">Psicóloga Clínica</p>
         </div>
       </div>
     </section>;

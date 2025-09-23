@@ -4,8 +4,8 @@ const Contact = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-16 text-center">
           {/* Section Title */}
-          <h2 className="text-3xl md:text-4xl font-light">
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Entre em contato</span>
+          <h2 className="font-cormorant text-2xl md:text-3xl font-medium text-primary">
+            Entre em contato
           </h2>
 
           {/* Simple Contact Info */}
@@ -19,7 +19,7 @@ const Contact = () => {
 
             {/* Simple CTA Button */}
             <div className="pt-8">
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-4 text-lg font-light rounded-full transition-all duration-300 hover:scale-105" onClick={() => window.open('https://wa.me/5551992188634?text=Olá%2C+gostaria+de+agendar+uma+consulta', '_blank')}>
+              <Button className="font-inter bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-4 text-lg font-light rounded-full transition-all duration-300 hover:scale-105" onClick={() => window.open('https://wa.me/5551992188634?text=Olá%2C+gostaria+de+agendar+uma+consulta', '_blank')}>
                 Agende sua consulta
               </Button>
             </div>

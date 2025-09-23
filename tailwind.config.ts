@@ -79,7 +79,10 @@ export default {
 			},
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
-				'playfair': ['Playfair Display', 'serif'],
+				'cormorant': ['Cormorant Garamond', 'serif'],
+				'dancing': ['Dancing Script', 'cursive'],
+				'sans': ['Inter', 'system-ui', 'sans-serif'],
+				'serif': ['Cormorant Garamond', 'Georgia', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

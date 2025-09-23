@@ -8,40 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Earthy Sage & Terracotta Palette */
-    --background: 45 100% 99%;
-    --foreground: 100 17% 38%;
+    /* Aurora Inspired Neutral Palette */
+    --background: 40 25% 97%;
+    --foreground: 25 15% 25%;
     
-    --card: 45 100% 99%;
-    --card-foreground: 100 17% 38%;
+    --card: 40 30% 98%;
+    --card-foreground: 25 15% 25%;
     
-    --popover: 45 100% 99%;
-    --popover-foreground: 100 17% 38%;
+    --popover: 40 25% 97%;
+    --popover-foreground: 25 15% 25%;
     
-    --primary: 100 17% 38%;
-    --primary-foreground: 45 100% 99%;
+    --primary: 25 15% 25%;
+    --primary-foreground: 40 25% 97%;
     
-    --secondary: 60 32% 59%;
-    --secondary-foreground: 100 17% 38%;
+    --secondary: 35 25% 88%;
+    --secondary-foreground: 25 15% 25%;
     
-    --muted: 41 67% 61%;
-    --muted-foreground: 100 17% 38%;
+    --muted: 35 20% 92%;
+    --muted-foreground: 25 10% 55%;
     
-    --accent: 25 97% 39%;
-    --accent-foreground: 45 100% 99%;
+    --accent: 35 30% 78%;
+    --accent-foreground: 25 15% 25%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 60 32% 85%;
-    --input: 60 32% 85%;
-    --ring: 100 17% 38%;
+    --border: 35 15% 85%;
+    --input: 35 15% 85%;
+    --ring: 25 15% 25%;
     
     --radius: 0.5rem;
 
-    /* Earthy Sage Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(45 100% 99%), hsl(41 67% 61%));
-    --gradient-text: linear-gradient(135deg, hsl(100 17% 38%), hsl(25 97% 39%));
+    /* Aurora Neutral Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(40 25% 97%), hsl(35 20% 92%));
+    --gradient-text: linear-gradient(135deg, hsl(25 15% 25%), hsl(25 10% 55%));
     
     /* Elegant Shadows */
     --shadow-soft: 0 2px 12px -6px hsl(215 25% 27% / 0.08);
