@@ -8,48 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Aurora Inspired Neutral Palette */
-    --background: 40 25% 97%;
-    --foreground: 25 15% 25%;
+    /* Elegant Slate Palette */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 27%;
     
-    --card: 40 30% 98%;
-    --card-foreground: 25 15% 25%;
+    --card: 210 15% 99%;
+    --card-foreground: 215 25% 27%;
     
-    --popover: 40 25% 97%;
-    --popover-foreground: 25 15% 25%;
+    --popover: 210 20% 98%;
+    --popover-foreground: 215 25% 27%;
     
-    --primary: 25 15% 25%;
-    --primary-foreground: 40 25% 97%;
+    --primary: 215 28% 17%;
+    --primary-foreground: 210 20% 98%;
     
-    --secondary: 35 25% 88%;
-    --secondary-foreground: 25 15% 25%;
+    --secondary: 210 16% 93%;
+    --secondary-foreground: 215 25% 27%;
     
-    --muted: 35 20% 92%;
-    --muted-foreground: 25 10% 55%;
+    --muted: 210 14% 96%;
+    --muted-foreground: 215 16% 47%;
     
-    --accent: 35 30% 78%;
-    --accent-foreground: 25 15% 25%;
+    --accent: 215 16% 47%;
+    --accent-foreground: 210 20% 98%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 35 15% 85%;
-    --input: 35 15% 85%;
-    --ring: 25 15% 25%;
-    
-    /* Header nude tone */
-    --header-background: 30 20% 85%;
-    --header-foreground: 25 15% 25%;
-    
-    /* Contact section nude tone */
-    --contact-background: 35 15% 90%;
-    --contact-card: 40 20% 95%;
+    --border: 214 13% 88%;
+    --input: 214 13% 88%;
+    --ring: 215 28% 17%;
     
     --radius: 0.5rem;
 
-    /* Aurora Neutral Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(40 25% 97%), hsl(35 20% 92%));
-    --gradient-text: linear-gradient(135deg, hsl(25 15% 25%), hsl(25 10% 55%));
+    /* Sophisticated Slate Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(210 20% 98%), hsl(214 16% 95%));
+    --gradient-text: linear-gradient(135deg, hsl(215 28% 17%), hsl(215 16% 47%));
     
     /* Elegant Shadows */
     --shadow-soft: 0 2px 12px -6px hsl(215 25% 27% / 0.08);

@@ -56,14 +56,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				header: {
-					background: 'hsl(var(--header-background))',
-					foreground: 'hsl(var(--header-foreground))'
-				},
-				contact: {
-					background: 'hsl(var(--contact-background))',
-					card: 'hsl(var(--contact-card))'
-				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -87,10 +79,7 @@ export default {
 			},
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
-				'cormorant': ['Cormorant Garamond', 'serif'],
-				'dancing': ['Dancing Script', 'cursive'],
-				'sans': ['Inter', 'system-ui', 'sans-serif'],
-				'serif': ['Cormorant Garamond', 'Georgia', 'serif'],
+				'playfair': ['Playfair Display', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
