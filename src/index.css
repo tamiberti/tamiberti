@@ -8,40 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Elegant Slate Palette */
-    --background: 210 20% 98%;
-    --foreground: 215 25% 27%;
+    /* Earthy Sage & Terracotta Palette */
+    --background: 45 100% 99%;
+    --foreground: 100 17% 38%;
     
-    --card: 210 15% 99%;
-    --card-foreground: 215 25% 27%;
+    --card: 45 100% 99%;
+    --card-foreground: 100 17% 38%;
     
-    --popover: 210 20% 98%;
-    --popover-foreground: 215 25% 27%;
+    --popover: 45 100% 99%;
+    --popover-foreground: 100 17% 38%;
     
-    --primary: 215 28% 17%;
-    --primary-foreground: 210 20% 98%;
+    --primary: 100 17% 38%;
+    --primary-foreground: 45 100% 99%;
     
-    --secondary: 210 16% 93%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 60 32% 59%;
+    --secondary-foreground: 100 17% 38%;
     
-    --muted: 210 14% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 41 67% 61%;
+    --muted-foreground: 100 17% 38%;
     
-    --accent: 215 16% 47%;
-    --accent-foreground: 210 20% 98%;
+    --accent: 25 97% 39%;
+    --accent-foreground: 45 100% 99%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 214 13% 88%;
-    --input: 214 13% 88%;
-    --ring: 215 28% 17%;
+    --border: 60 32% 85%;
+    --input: 60 32% 85%;
+    --ring: 100 17% 38%;
     
     --radius: 0.5rem;
 
-    /* Sophisticated Slate Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(210 20% 98%), hsl(214 16% 95%));
-    --gradient-text: linear-gradient(135deg, hsl(215 28% 17%), hsl(215 16% 47%));
+    /* Earthy Sage Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(45 100% 99%), hsl(41 67% 61%));
+    --gradient-text: linear-gradient(135deg, hsl(100 17% 38%), hsl(25 97% 39%));
     
     /* Elegant Shadows */
     --shadow-soft: 0 2px 12px -6px hsl(215 25% 27% / 0.08);
