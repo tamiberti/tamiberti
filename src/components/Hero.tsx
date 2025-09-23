@@ -13,9 +13,10 @@ const Hero = () => {
       className="min-h-screen flex items-center justify-center animate-fade-in transition-all duration-1000 ease-in-out relative"
       style={{
         backgroundImage: `url(${leafBackground})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        backgroundSize: '120%',
+        backgroundPosition: 'center 20%',
+        backgroundRepeat: 'no-repeat',
+        imageRendering: 'crisp-edges'
       }}
     >
       <div className="absolute inset-0 bg-background/30"></div>

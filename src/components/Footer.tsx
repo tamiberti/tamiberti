@@ -6,9 +6,10 @@ const Footer = () => {
       className="py-12 px-6 relative"
       style={{
         backgroundImage: `url(${leafBackground})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        backgroundSize: '120%',
+        backgroundPosition: 'center 30%',
+        backgroundRepeat: 'no-repeat',
+        imageRendering: 'crisp-edges'
       }}
     >
       <div className="absolute inset-0 bg-background/40"></div>

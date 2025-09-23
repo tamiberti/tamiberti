@@ -37,6 +37,14 @@ All colors MUST be HSL.
     --input: 35 15% 85%;
     --ring: 25 15% 25%;
     
+    /* Header nude tone */
+    --header-background: 30 20% 85%;
+    --header-foreground: 25 15% 25%;
+    
+    /* Contact section nude tone */
+    --contact-background: 35 15% 90%;
+    --contact-card: 40 20% 95%;
+    
     --radius: 0.5rem;
 
     /* Aurora Neutral Gradients */
