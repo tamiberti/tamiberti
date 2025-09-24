@@ -78,11 +78,8 @@ export default {
 				'strong': 'var(--shadow-strong)',
 			},
 			fontFamily: {
-				'sans': ['Inter', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
 				'playfair': ['Playfair Display', 'serif'],
-				'script': ['Dancing Script', 'cursive'],
-				'serif': ['Crimson Text', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

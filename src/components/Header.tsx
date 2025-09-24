@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,33 +11,26 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
-      <div className="container mx-auto px-8 lg:px-16">
-        <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo/Brand - Script Font like the image */}
-          <div className="flex-shrink-0">
-            <h1 className="font-script text-2xl lg:text-3xl text-foreground font-medium">
-              Tami Berti
-            </h1>
-          </div>
-
-          {/* Navigation */}
-          <nav className="hidden md:flex space-x-8 lg:space-x-12">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm">
+      <div className="container mx-auto px-6">
+        <div className="flex items-center justify-center h-20">
+          {/* Simple centered navigation */}
+          <nav className="flex space-x-12 text-lg">
             <button 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-sm lg:text-base text-foreground hover:text-muted-foreground transition-colors font-light tracking-wide uppercase"
+              className="text-primary hover:text-primary/80 transition-colors font-light"
             >
               Início
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-sm lg:text-base text-foreground hover:text-muted-foreground transition-colors font-light tracking-wide uppercase"
+              className="text-primary hover:text-primary/80 transition-colors font-light"
             >
               Sobre mim
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-sm lg:text-base text-foreground hover:text-muted-foreground transition-colors font-light tracking-wide uppercase"
+              className="text-primary hover:text-primary/80 transition-colors font-light"
             >
               Contato
             </button>
