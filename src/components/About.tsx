@@ -6,9 +6,9 @@ const About = () => {
       
       <div className="container mx-auto max-w-5xl relative z-10">
         <div className="grid lg:grid-cols-12 gap-16 lg:gap-24">
-          {/* Left Column - Title */}
+          {/* Left Column - Title with Serif Font like the image */}
           <div className="lg:col-span-4">
-            <h2 className="text-3xl lg:text-4xl font-light text-foreground mb-8">
+            <h2 className="font-serif text-3xl lg:text-4xl font-normal text-foreground mb-8">
               Sobre mim
             </h2>
             <div className="w-12 h-px bg-foreground" />
@@ -36,10 +36,10 @@ const About = () => {
               </div>
             </div>
 
-            {/* Formação Section */}
+            {/* Formação Section with Serif Font */}
             <div className="pt-12 space-y-8">
               <div>
-                <h3 className="text-xl lg:text-2xl font-light text-foreground mb-6">
+                <h3 className="font-serif text-xl lg:text-2xl font-normal text-foreground mb-6">
                   Formação
                 </h3>
                 <div className="w-8 h-px bg-foreground mb-6" />
@@ -53,7 +53,7 @@ const About = () => {
               </div>
 
               <div className="pt-8">
-                <h4 className="text-lg font-light text-foreground mb-4">
+                <h4 className="font-serif text-lg font-normal text-foreground mb-4">
                   Registro Profissional
                 </h4>
                 <div className="space-y-2 text-muted-foreground">

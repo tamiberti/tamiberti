@@ -8,10 +8,10 @@ const Contact = () => {
       
       <div className="container mx-auto max-w-5xl relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Left Column - Content */}
+          {/* Left Column - Content with Serif Font like the image */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-light text-foreground mb-6">
+              <h2 className="font-serif text-3xl lg:text-4xl font-normal text-foreground mb-6">
                 Entre em contato
               </h2>
               <div className="w-12 h-px bg-foreground" />
