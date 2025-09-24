@@ -78,6 +78,7 @@ export default {
 				'strong': 'var(--shadow-strong)',
 			},
 			fontFamily: {
+				'sans': ['Inter', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
 				'playfair': ['Playfair Display', 'serif'],
 			},

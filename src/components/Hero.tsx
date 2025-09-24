@@ -4,21 +4,29 @@ const Hero = () => {
       behavior: 'smooth'
     });
   };
-  return <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted animate-fade-in transition-all duration-1000 ease-in-out">
-      <div className="container mx-auto px-6 text-center max-w-5xl">
-        <div className="space-y-16">
-          {/* Large Typography Logo Style */}
-          <div className="space-y-4">
-            <h1 className="font-playfair text-8xl md:text-9xl lg:text-[12rem] font-light leading-none">
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent text-7xl">TAMI BERTI</span>
+  
+  return (
+    <section className="min-h-screen flex items-center justify-center bg-background relative overflow-hidden">
+      {/* Clean geometric accent */}
+      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-accent/30 rounded-bl-[100px]" />
+      
+      <div className="container mx-auto px-8 lg:px-16 text-center max-w-6xl relative z-10">
+        <div className="space-y-12">
+          {/* Main Title - Clean Typography */}
+          <div className="space-y-6">
+            <h1 className="font-inter text-4xl md:text-6xl lg:text-7xl font-light tracking-tight leading-none text-foreground">
+              TAMI BERTI
             </h1>
-            
+            <div className="w-16 h-px bg-foreground mx-auto" />
           </div>
           
           {/* Simple subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide">Psicóloga Clínica</p>
+          <p className="text-lg md:text-xl text-muted-foreground font-light tracking-wide max-w-md mx-auto">
+            Psicóloga Clínica
+          </p>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default Hero;
