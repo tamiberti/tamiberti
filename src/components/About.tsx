@@ -13,27 +13,16 @@ const About = () => {
               Oi, que bom te ter por aqui!
             </p>
             
-            <p className="text-muted-foreground font-light">
-              Me chamo Tami Berti e sou psicóloga clínica, com experiência também na área hospitalar. 
-              Minha principal abordagem é a Terapia Sistêmica, que busca compreender cada pessoa dentro de suas relações e contextos, valorizando a forma como os vínculos e ambientes influenciam nossas escolhas e sentimentos.
-            </p>
+            <p className="text-muted-foreground font-light text-justify">Eu sou a Tami, psicóloga clínica há cinco anos, com experiência também na área da psicologia hospitalar. Natural de Porto Alegre no Rio Grande do Sul, estou vivenciando pela segunda vez o processo de migração para fora do país. Por isso, atuo de forma online, o que nos permite trabalhar juntos independentemente de onde você esteja.</p>
             
-            <p className="text-muted-foreground font-light">
-              Tenho experiência com luto, dor, processos de adoecimento, relacionamentos e autoconhecimento. Atualmente, venho direcionando meu olhar especialmente para os processos migratórios, um tema que atravessa também a minha própria história. Ele foi objeto de estudo durante a faculdade, esteve presente na minha vivência de intercâmbio na Espanha e, em breve, fará parte novamente da minha vida em um novo processo migratório.
-            </p>
+            <p className="text-muted-foreground font-light text-justify">Meu atendimento é direcionado ao público adulto, através da abordagem da Terapia Sistêmica, que busca compreender cada pessoa em suas relações e contextos. Nessa perspectiva, entendemos que os vínculos e ambientes exercem grande influência sobre nossas escolhas, emoções e formas de estar no mundo.</p>
             
-            <p className="text-muted-foreground font-light">
-              Nosso trabalho juntos começa com uma avaliação clínica, para que eu possa compreender melhor tua história e identificar de que forma posso te ajudar. 
-              A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre teu ritmo e tuas necessidades.
-            </p>
+            <p className="text-muted-foreground font-light text-justify">Nosso trabalho começa com uma avaliação clínica, para que possamos nos conhecer melhor e eu possa compreender sua história e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre seu ritmo e suas necessidades.</p>
             
-            <p className="text-muted-foreground font-light">
-              Se tiveres qualquer dúvida, estarei à disposição.
-            </p>
+            <p className="text-muted-foreground font-light">Se tiver alguma dúvida, fique à vontade para me procurar.
+Conte comigo!</p>
             
-            <p className="font-light text-primary">
-              Conta comigo!
-            </p>
+            
           </div>
 
           {/* Formação Section */}
@@ -43,16 +32,12 @@ const About = () => {
             </h3>
             
             <div className="space-y-4 text-left">
-              <p className="text-muted-foreground font-light">
+              <p className="text-muted-foreground font-light text-justify">
                 Graduação em Psicologia - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
               </p>
-              <p className="text-muted-foreground font-light">
-                Mobilidade acadêmica Santander Universidades - Universitat de Lleida - Espanha
-              </p>
-              <p className="text-muted-foreground font-light">
-                Esp. em Urgência e Emergência - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
-              </p>
-              <p className="text-muted-foreground font-light">
+              <p className="text-muted-foreground font-light text-justify">Mobilidade acadêmica Santander Universidades - Universitat de Lleida / Espanha</p>
+              <p className="text-muted-foreground font-light text-justify">Esp. em Psicologia da Saúde (Urgência e Emergência) - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)</p>
+              <p className="text-muted-foreground font-light text-justify">
                 Esp. em Terapia Sistêmica - Centro de Estudos da Família e do Indivíduo (CEFI)
               </p>
             </div>

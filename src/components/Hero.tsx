@@ -13,7 +13,7 @@ const Hero = () => {
               <span className="text-primary text-7xl"></span>
             </h1>
             <h1 className="font-playfair text-5xl md:text-6xl lg:text-7xl font-light leading-none">
-              <span className="text-secondary">TAMI BERTI</span>
+              <span className="text-[#9fcfe3]/80">TAMI BERTI</span>
             </h1>
           </div>
           
