@@ -8,27 +8,27 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Elegant Slate Palette */
-    --background: 210 20% 98%;
-    --foreground: 215 25% 27%;
+    /* Soft Coral Palette - Inspired by Alice Abadi */
+    --background: 15 25% 95%;
+    --foreground: 25 15% 25%;
     
-    --card: 210 15% 99%;
-    --card-foreground: 215 25% 27%;
+    --card: 15 20% 97%;
+    --card-foreground: 25 15% 25%;
     
-    --popover: 210 20% 98%;
-    --popover-foreground: 215 25% 27%;
+    --popover: 15 25% 95%;
+    --popover-foreground: 25 15% 25%;
     
-    --primary: 215 28% 17%;
-    --primary-foreground: 210 20% 98%;
+    --primary: 15 70% 65%;
+    --primary-foreground: 15 25% 95%;
     
-    --secondary: 210 16% 93%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 200 30% 75%;
+    --secondary-foreground: 25 15% 25%;
     
-    --muted: 210 14% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 15 15% 92%;
+    --muted-foreground: 25 10% 60%;
     
-    --accent: 215 16% 47%;
-    --accent-foreground: 210 20% 98%;
+    --accent: 200 30% 75%;
+    --accent-foreground: 15 25% 95%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 98%;
@@ -39,13 +39,13 @@ All colors MUST be HSL.
     
     --radius: 0.5rem;
 
-    /* Sophisticated Slate Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(210 20% 98%), hsl(214 16% 95%));
-    --gradient-text: linear-gradient(135deg, hsl(215 28% 17%), hsl(215 16% 47%));
+    /* Soft Coral Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(15 25% 95%), hsl(15 20% 92%));
+    --gradient-text: linear-gradient(135deg, hsl(15 70% 65%), hsl(200 30% 75%));
     
-    /* Elegant Shadows */
-    --shadow-soft: 0 2px 12px -6px hsl(215 25% 27% / 0.08);
-    --shadow-medium: 0 4px 20px -10px hsl(215 25% 27% / 0.12);
+    /* Soft Shadows */
+    --shadow-soft: 0 2px 12px -6px hsl(25 15% 25% / 0.06);
+    --shadow-medium: 0 4px 20px -10px hsl(25 15% 25% / 0.08);
 
     --sidebar-background: 0 0% 98%;
 
@@ -65,26 +65,26 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 215 28% 12%;
-    --foreground: 210 14% 89%;
+    --background: 25 15% 15%;
+    --foreground: 15 25% 90%;
     
-    --card: 215 27% 15%;
-    --card-foreground: 210 14% 89%;
+    --card: 25 20% 18%;
+    --card-foreground: 15 25% 90%;
     
-    --popover: 215 28% 12%;
-    --popover-foreground: 210 14% 89%;
+    --popover: 25 15% 15%;
+    --popover-foreground: 15 25% 90%;
     
-    --primary: 210 14% 89%;
-    --primary-foreground: 215 28% 12%;
+    --primary: 15 60% 60%;
+    --primary-foreground: 25 15% 15%;
     
-    --secondary: 215 20% 20%;
-    --secondary-foreground: 210 14% 89%;
+    --secondary: 200 25% 25%;
+    --secondary-foreground: 15 25% 90%;
     
-    --muted: 215 20% 17%;
-    --muted-foreground: 210 12% 65%;
+    --muted: 25 15% 20%;
+    --muted-foreground: 15 15% 65%;
     
-    --accent: 215 20% 20%;
-    --accent-foreground: 210 14% 89%;
+    --accent: 200 25% 25%;
+    --accent-foreground: 15 25% 90%;
     
     --destructive: 0 50% 40%;
     --destructive-foreground: 0 0% 98%;
