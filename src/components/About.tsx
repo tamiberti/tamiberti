@@ -1,15 +1,15 @@
 const About = () => {
-  return <section id="about" className="py-24 md:py-32 px-6 animate-fade-in">
+  return <section id="about" className="py-24 md:py-32 px-6 animate-page-enter">
       <div className="container mx-auto max-w-3xl">
         <div className="space-y-12 md:space-y-16">
           {/* Section Title */}
-          <h2 className="text-2xl md:text-3xl font-playfair text-primary text-left font-normal">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-playfair text-primary text-left font-normal">
             Sobre mim
           </h2>
 
           {/* Content */}
-          <div className="space-y-6 text-base md:text-lg leading-relaxed text-center">
-            <p className="text-xl md:text-2xl font-light text-primary text-justify">
+          <div className="space-y-6 text-base md:text-lg leading-relaxed text-left">
+            <p className="text-xl md:text-2xl font-light text-primary text-left">
               Oi, que bom te ter por aqui!
             </p>
             
@@ -38,11 +38,11 @@ const About = () => {
 
           {/* Formação Section */}
           <div className="space-y-8 md:space-y-12 pt-8 md:pt-12 border-t border-border/30">
-            <h3 className="text-xl md:text-2xl font-playfair font-normal text-center text-primary">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-playfair font-normal text-left text-primary">
               Formação
             </h3>
             
-            <div className="space-y-4 text-center">
+            <div className="space-y-4 text-left">
               <p className="text-muted-foreground font-light">
                 Graduação em Psicologia - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
               </p>
@@ -58,10 +58,10 @@ const About = () => {
             </div>
 
             <div className="space-y-4 pt-6 md:pt-8">
-              <h4 className="text-lg md:text-xl font-playfair font-normal text-center text-primary">
+              <h4 className="text-xl md:text-2xl font-playfair font-normal text-left text-primary">
                 Registro Profissional
               </h4>
-              <div className="text-center space-y-2">
+              <div className="text-left space-y-2">
                 <p className="text-muted-foreground font-light">
                   CRP 07/34490
                 </p>
