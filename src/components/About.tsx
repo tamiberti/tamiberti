@@ -1,16 +1,15 @@
 const About = () => {
-  return (
-    <section id="about" className="py-24 md:py-32 px-6 animate-fade-in">
+  return <section id="about" className="py-24 md:py-32 px-6 animate-fade-in">
       <div className="container mx-auto max-w-3xl">
         <div className="space-y-12 md:space-y-16">
           {/* Section Title */}
-          <h2 className="text-2xl md:text-3xl font-playfair font-normal text-center text-primary">
+          <h2 className="text-2xl md:text-3xl font-playfair text-primary text-left font-normal">
             Sobre mim
           </h2>
 
           {/* Content */}
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-center">
-            <p className="text-xl md:text-2xl font-light text-primary">
+            <p className="text-xl md:text-2xl font-light text-primary text-justify">
               Oi, que bom te ter por aqui!
             </p>
             
@@ -74,8 +73,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
