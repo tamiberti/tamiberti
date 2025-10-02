@@ -8,44 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Balanced Blue-Orange Palette */
-    --background: 15 25% 95%;
-    --foreground: 25 15% 25%;
+    /* Earthy Terracotta Palette */
+    --background: 31 100% 91%;
+    --foreground: 66 12% 34%;
     
-    --card: 15 20% 97%;
-    --card-foreground: 25 15% 25%;
+    --card: 31 80% 93%;
+    --card-foreground: 66 12% 34%;
     
-    --popover: 15 25% 95%;
-    --popover-foreground: 25 15% 25%;
+    --popover: 31 100% 91%;
+    --popover-foreground: 66 12% 34%;
     
-    --primary: 15 65% 60%;
-    --primary-foreground: 15 25% 95%;
+    --primary: 21 39% 50%;
+    --primary-foreground: 31 100% 91%;
     
-    --secondary: 210 40% 60%;
-    --secondary-foreground: 25 15% 25%;
+    --secondary: 29 45% 71%;
+    --secondary-foreground: 66 12% 34%;
     
-    --muted: 15 15% 92%;
-    --muted-foreground: 25 10% 60%;
+    --muted: 29 35% 85%;
+    --muted-foreground: 21 20% 45%;
     
-    --accent: 210 40% 60%;
-    --accent-foreground: 15 25% 95%;
+    --accent: 66 12% 34%;
+    --accent-foreground: 31 100% 91%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 214 13% 88%;
-    --input: 214 13% 88%;
-    --ring: 215 28% 17%;
+    --border: 29 30% 80%;
+    --input: 29 30% 80%;
+    --ring: 21 39% 50%;
     
     --radius: 0.5rem;
 
-    /* Blue-Orange Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(15 25% 95%), hsl(15 20% 92%));
-    --gradient-text: linear-gradient(135deg, hsl(15 65% 60%), hsl(210 40% 60%));
+    /* Earthy Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(31 100% 91%), hsl(29 45% 71%));
+    --gradient-text: linear-gradient(135deg, hsl(21 39% 50%), hsl(66 12% 34%));
+    --gradient-wave: linear-gradient(135deg, hsl(21 39% 50%), hsl(29 45% 71%));
     
     /* Soft Shadows */
-    --shadow-soft: 0 2px 12px -6px hsl(25 15% 25% / 0.06);
-    --shadow-medium: 0 4px 20px -10px hsl(25 15% 25% / 0.08);
+    --shadow-soft: 0 2px 12px -6px hsl(66 12% 34% / 0.06);
+    --shadow-medium: 0 4px 20px -10px hsl(66 12% 34% / 0.08);
 
     --sidebar-background: 0 0% 98%;
 
@@ -65,33 +66,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 25 15% 15%;
-    --foreground: 15 25% 90%;
+    --background: 66 12% 20%;
+    --foreground: 31 80% 85%;
     
-    --card: 25 20% 18%;
-    --card-foreground: 15 25% 90%;
+    --card: 66 12% 25%;
+    --card-foreground: 31 80% 85%;
     
-    --popover: 25 15% 15%;
-    --popover-foreground: 15 25% 90%;
+    --popover: 66 12% 20%;
+    --popover-foreground: 31 80% 85%;
     
-    --primary: 15 55% 55%;
-    --primary-foreground: 25 15% 15%;
+    --primary: 21 39% 55%;
+    --primary-foreground: 66 12% 20%;
     
-    --secondary: 210 35% 30%;
-    --secondary-foreground: 15 25% 90%;
+    --secondary: 29 35% 45%;
+    --secondary-foreground: 31 80% 85%;
     
-    --muted: 25 15% 20%;
-    --muted-foreground: 15 15% 65%;
+    --muted: 66 12% 30%;
+    --muted-foreground: 29 30% 65%;
     
-    --accent: 210 35% 30%;
-    --accent-foreground: 15 25% 90%;
+    --accent: 29 45% 71%;
+    --accent-foreground: 66 12% 20%;
     
     --destructive: 0 50% 40%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 215 20% 20%;
-    --input: 215 20% 20%;
-    --ring: 210 14% 89%;
+    --border: 66 12% 30%;
+    --input: 66 12% 30%;
+    --ring: 21 39% 60%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

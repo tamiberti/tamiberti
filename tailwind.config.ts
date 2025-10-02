@@ -17,7 +17,16 @@ export default {
 				'2xl': '1400px'
 			}
 		},
-		extend: {
+    extend: {
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-text': 'var(--gradient-text)',
+        'gradient-wave': 'var(--gradient-wave)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'medium': 'var(--shadow-medium)',
+      },
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -151,6 +160,14 @@ export default {
 						transform: 'translateY(0) scale(1)',
 						filter: 'blur(0px)'
 					}
+				},
+				'wave-reveal': {
+					'0%': {
+						transform: 'translateY(0)',
+					},
+					'100%': {
+						transform: 'translateY(-100%)',
+					}
 				}
 			},
 			animation: {
@@ -159,7 +176,8 @@ export default {
 				'fade-in': 'fade-in 1.2s cubic-bezier(0.16, 1, 0.3, 1)',
 				'slide-up': 'slide-up 1s cubic-bezier(0.16, 1, 0.3, 1)',
 				'smooth-fade': 'smooth-fade 1.4s cubic-bezier(0.16, 1, 0.3, 1)',
-				'page-enter': 'page-enter 0.8s cubic-bezier(0.16, 1, 0.3, 1)'
+				'page-enter': 'page-enter 0.8s cubic-bezier(0.16, 1, 0.3, 1)',
+				'wave-reveal': 'wave-reveal 1s cubic-bezier(0.65, 0, 0.35, 1) forwards'
 			}
 		}
 	},
