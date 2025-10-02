@@ -6,66 +6,91 @@ const Hero = () => {
   };
   
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden animate-fade-in">
-      {/* Organic Waves Background - Inspired by desert landscape */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
+      {/* Abstract Organic Shapes Background - Inspired by textured abstract art */}
       <div className="absolute inset-0 -z-10">
         <svg 
-          className="absolute inset-0 w-full h-full" 
+          className="absolute inset-0 w-full h-full opacity-40" 
           viewBox="0 0 1440 800" 
-          preserveAspectRatio="none"
+          preserveAspectRatio="xMidYMid slice"
           xmlns="http://www.w3.org/2000/svg"
         >
-          {/* Bottom layer - Darkest brown */}
-          <path
-            fill="hsl(21 39% 30%)"
-            d="M0,500 Q360,450 720,500 T1440,500 L1440,800 L0,800 Z"
-            opacity="0.9"
-          />
-          
-          {/* Second layer - Brown sugar */}
-          <path
+          {/* Large circle - Terra cotta */}
+          <circle
+            cx="200"
+            cy="150"
+            r="280"
             fill="hsl(21 39% 50%)"
-            d="M0,400 Q360,350 720,420 T1440,400 L1440,800 L0,800 Z"
-            opacity="0.8"
-          />
-          
-          {/* Third layer - Tan */}
-          <path
-            fill="hsl(29 45% 71%)"
-            d="M0,320 Q360,280 720,340 T1440,320 L1440,800 L0,800 Z"
-            opacity="0.7"
-          />
-          
-          {/* Fourth layer - Light peach */}
-          <path
-            fill="hsl(31 60% 85%)"
-            d="M0,240 Q360,200 720,260 T1440,240 L1440,800 L0,800 Z"
             opacity="0.6"
+            className="mix-blend-multiply"
           />
           
-          {/* Top layer - Lightest */}
-          <path
-            fill="hsl(31 60% 96%)"
-            d="M0,180 Q360,140 720,200 T1440,180 L1440,800 L0,800 Z"
+          {/* Medium circle - Coral/Orange */}
+          <circle
+            cx="400"
+            cy="200"
+            r="320"
+            fill="hsl(15 55% 60%)"
             opacity="0.5"
+            className="mix-blend-multiply"
+          />
+          
+          {/* Large circle bottom right - Light peach */}
+          <circle
+            cx="1100"
+            cy="600"
+            r="350"
+            fill="hsl(29 45% 71%)"
+            opacity="0.4"
+            className="mix-blend-multiply"
+          />
+          
+          {/* Medium circle bottom - Gray beige */}
+          <circle
+            cx="800"
+            cy="650"
+            r="280"
+            fill="hsl(66 12% 50%)"
+            opacity="0.3"
+            className="mix-blend-multiply"
+          />
+          
+          {/* Small accent circle */}
+          <circle
+            cx="1200"
+            cy="200"
+            r="180"
+            fill="hsl(31 60% 85%)"
+            opacity="0.5"
+            className="mix-blend-multiply"
+          />
+          
+          {/* Additional texture circle */}
+          <circle
+            cx="600"
+            cy="500"
+            r="220"
+            fill="hsl(21 39% 50%)"
+            opacity="0.2"
+            className="mix-blend-multiply"
           />
         </svg>
       </div>
 
-      <div className="container mx-auto px-6 text-center max-w-5xl relative z-10">
-        <div className="space-y-8">
-          {/* Large Typography Logo Style */}
-          <div className="space-y-2">
-            <h1 className="font-playfair text-7xl md:text-8xl lg:text-9xl font-normal leading-none">
-              <span className="text-primary"></span>
+      <div className="container mx-auto px-6 text-center max-w-6xl relative z-10">
+        <div className="space-y-12 animate-fade-in">
+          {/* Massive Typography - Maximum Impact */}
+          <div className="space-y-4">
+            <h1 className="font-playfair text-8xl md:text-9xl lg:text-[12rem] xl:text-[14rem] font-light leading-none tracking-tight">
+              <span className="text-primary">TAMI</span>
             </h1>
-            <h1 className="font-playfair text-5xl md:text-6xl lg:text-7xl font-light leading-none">
-              <span className="text-secondary">TAMI BERTI</span>
+            <h1 className="font-playfair text-8xl md:text-9xl lg:text-[12rem] xl:text-[14rem] font-light leading-none tracking-tight">
+              <span className="text-secondary">BERTI</span>
             </h1>
           </div>
           
-          {/* Simple subtitle */}
-          <p className="text-lg font-light tracking-wide mt-8 text-primary md:text-2xl">
+          {/* Subtitle with breathing room */}
+          <p className="text-xl md:text-2xl lg:text-3xl font-light tracking-wider text-foreground/80 mt-16">
             Psicóloga Clínica
           </p>
         </div>
