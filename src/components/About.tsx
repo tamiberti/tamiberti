@@ -19,7 +19,7 @@ const About = () => {
             <p className="text-muted-foreground font-light text-justify">Atendo exclusivamente o público adulto e atuo a partir da Terapia Sistêmica, abordagem que busca compreender cada pessoa dentro de suas relações e contextos. Nessa perspectiva, os vínculos e ambientes são entendidos como elementos que influenciam nossas escolhas, emoções e formas de estar no mundo. 
 
 
-A terapia é um espaço para dar voz ao que sentimos, até mesmo àquilo que nem sempre conseguimos nomear. É um lugar de escuta, onde podemos revisitar histórias, emoções e aspectos de nós mesmos que, por vezes, ficaram adormecidos ou silenciados. Para que isso aconteça, é essencial que a relação terapêutica seja construída com confiança, acolhimento e autenticidade, pois é nesse encontro que nasce a possibilidade de transformação.</p>
+ A terapia é um espaço para dar voz ao que sentimos, até mesmo àquilo que nem sempre conseguimos nomear. É um lugar de escuta, onde podemos revisitar histórias, emoções e aspectos de nós mesmos que, por vezes, ficaram adormecidos ou silenciados. Para que isso aconteça, é essencial que a relação terapêutica seja construída com confiança, acolhimento e autenticidade, pois é nesse encontro que nasce a possibilidade de transformação.</p>
             
             <p className="text-muted-foreground font-light text-justify">
               Nosso trabalho começa com uma avaliação clínica, para que possamos nos conhecer melhor e eu possa compreender sua história e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre seu ritmo e suas necessidades.
