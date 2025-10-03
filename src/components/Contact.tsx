@@ -14,7 +14,7 @@ const Contact = () => {
             
             <div className="space-y-3 text-base md:text-lg">
               <p className="text-muted-foreground font-light">📧 tamisberti@gmail.com.br</p>
-              <p className="text-muted-foreground font-light">📱 (51) 992188634</p>
+              <p className="text-muted-foreground font-light">📱 (51) 99218-8634</p>
             </div>
           </div>
         </div>
