@@ -1,33 +1,27 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 const About = () => {
-  return (
-    <section id="about" className="py-24 md:py-32 px-6 animate-page-enter">
+  return <section id="about" className="py-24 md:py-32 px-6 animate-page-enter">
       <div className="container mx-auto max-w-3xl">
         <div className="space-y-12 md:space-y-16">
           {/* Section Title */}
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-playfair text-primary text-left font-normal">
+          <h2 className="text-3xl md:text-4xl font-playfair text-primary text-left font-normal lg:text-4xl">
             Sobre mim
           </h2>
 
           {/* Content */}
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-left">
-            <p className="text-xl md:text-2xl font-light text-primary text-left">
+            <p className="text-xl text-primary text-left md:text-lg font-extrabold">
               Oi, que bom te ter por aqui!
             </p>
             
-            <p className="text-muted-foreground font-light text-justify">
-              Eu sou a Tami, psicóloga clínica há cinco anos, com experiência também na área da psicologia hospitalar. Natural de Porto Alegre no Rio Grande do Sul, estou vivenciando pela segunda vez o processo de migração para fora do país. Por isso, atuo de forma online, o que nos permite trabalhar juntos independentemente de onde você esteja.
-            </p>
+            <p className="text-muted-foreground font-light text-justify">Eu sou a Tami, psicóloga clínica há cinco anos, com experiência também na área da psicologia hospitalar. Natural de Porto Alegre, no Rio Grande do Sul, estou vivenciando pela segunda vez o processo de migração para fora do país. Por isso, meu atendimento acontece de forma online, o que nos permite trabalhar juntos independentemente de onde você esteja.</p>
             
-            <p className="text-muted-foreground font-light text-justify">
-              Meu atendimento é direcionado ao público adulto, através da abordagem da Terapia Sistêmica, que busca compreender cada pessoa em suas relações e contextos. Nessa perspectiva, entendemos que os vínculos e ambientes exercem grande influência sobre nossas escolhas, emoções e formas de estar no mundo.
-            </p>
+            <p className="text-muted-foreground font-light text-justify">Atendo exclusivamente o público adulto e atuo a partir da Terapia Sistêmica, abordagem que busca compreender cada pessoa dentro de suas relações e contextos. Nessa perspectiva, os vínculos e ambientes são entendidos como elementos que influenciam nossas escolhas, emoções e formas de estar no mundo.
+
+
+
+
+A terapia é um espaço para dar voz ao que sentimos — até mesmo àquilo que nem sempre conseguimos nomear. É um lugar de escuta, onde podemos revisitar histórias, emoções e aspectos de nós mesmos que, por vezes, ficaram adormecidos ou silenciados. Para que isso aconteça, é essencial que a relação terapêutica seja construída com confiança, acolhimento e autenticidade, pois é nesse encontro que nasce a possibilidade de transformação.</p>
             
             <p className="text-muted-foreground font-light text-justify">
               Nosso trabalho começa com uma avaliação clínica, para que possamos nos conhecer melhor e eu possa compreender sua história e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre seu ritmo e suas necessidades.
@@ -85,8 +79,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;

@@ -4,7 +4,7 @@ const Contact = () => {
       <div className="container mx-auto max-w-2xl">
         <div className="space-y-12 md:space-y-16 text-center">
           {/* Section Title */}
-          <h2 className="text-2xl md:text-3xl font-playfair font-normal text-primary">
+          <h2 className="text-2xl font-playfair font-normal text-primary md:text-4xl">
             Entre em contato
           </h2>
 
