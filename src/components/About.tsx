@@ -14,13 +14,11 @@ const About = () => {
               Oi, que bom te ter por aqui!
             </p>
             
-            <p className="text-muted-foreground font-light text-justify">Eu sou a Tami, psicóloga clínica há cinco anos, com experiência também na área da psicologia hospitalar. Natural de Porto Alegre, no Rio Grande do Sul, estou vivenciando pela segunda vez o processo de migração para fora do país. Por isso, meu atendimento acontece de forma online, o que nos permite trabalhar juntos independentemente de onde você esteja.</p>
+            <p className="text-muted-foreground font-light text-justify">Eu sou a Tami, gaúcha, natural de Porto Alegre. Sou psicóloga clínica há cinco anos, com experiência também na área da psicologia hospitalar. Atualmente vivencio pela segunda vez o processo de imigração,  experiência que me aproxima dos desafios de quem escolhe (ou precisa) viver fora do seu país. Por isso, tenho me dedicado a acolher brasileiros que atravessam esse caminho, oferecendo um espaço de escuta, compreensão e apoio. Meu atendimento acontece de forma online, o que nos permite trabalhar juntos, independentemente de onde você esteja.</p>
             
-            <p className="text-muted-foreground font-light text-justify">Atendo exclusivamente o público adulto e atuo a partir da Terapia Sistêmica, abordagem que busca compreender cada pessoa dentro de suas relações e contextos. Nessa perspectiva, os vínculos e ambientes são entendidos como elementos que influenciam nossas escolhas, emoções e formas de estar no mundo. </p>
+            <p className="text-muted-foreground font-light text-justify">Atendo exclusivamente adultos e atuo a partir da Terapia Sistêmica, abordagem que busca compreender cada pessoa em suas relações e contextos. Entendendo que vínculos, histórias e ambientes influenciam diretamente nossas escolhas, emoções e formas de estar no mundo.</p>
             
-            <p className="text-muted-foreground font-light text-justify">
-              Nosso trabalho começa com uma avaliação clínica, para que possamos nos conhecer melhor e eu possa compreender sua história e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre seu ritmo e suas necessidades.
-            </p>
+            <p className="text-muted-foreground font-light text-justify">A terapia é um espaço para dar voz ao que sentimos, revisitar histórias e vivenciar mudanças. Isso se torna possível quando a relação terapêutica é construída com confiança, acolhimento e autenticidade. Nosso trabalho aqui começa com uma avaliação clínica, para que eu possa te conhecer melhor e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre teu ritmo e tuas necessidades.</p>
             
             <p className="text-muted-foreground font-light">Se tiver alguma dúvida, fique à vontade para me procurar. 
 Conte comigo!</p>
