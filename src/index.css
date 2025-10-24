@@ -8,60 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Earthy Warm Palette - Variation */
-    --background: 31 60% 96%;
-    --foreground: 21 39% 30%;
+    /* Luxury Minimalist Theme - Cream, Beige & Brown */
+    --background: 30 20% 92%;
+    --foreground: 30 15% 25%;
     
-    --card: 31 50% 98%;
-    --card-foreground: 21 39% 30%;
+    --card: 30 20% 92%;
+    --card-foreground: 30 15% 25%;
     
-    --popover: 31 60% 96%;
-    --popover-foreground: 21 39% 30%;
+    --popover: 30 20% 92%;
+    --popover-foreground: 30 15% 25%;
     
-    --primary: 21 39% 50%;
-    --primary-foreground: 31 100% 96%;
+    --primary: 30 15% 25%;
+    --primary-foreground: 30 20% 92%;
     
-    --secondary: 66 12% 34%;
-    --secondary-foreground: 31 100% 96%;
+    --secondary: 20 30% 60%;
+    --secondary-foreground: 30 20% 92%;
     
-    --muted: 31 40% 88%;
-    --muted-foreground: 21 30% 50%;
+    --muted: 30 25% 88%;
+    --muted-foreground: 30 10% 40%;
     
-    --accent: 29 45% 71%;
-    --accent-foreground: 21 39% 30%;
+    --accent: 25 25% 35%;
+    --accent-foreground: 30 20% 92%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 31 30% 85%;
-    --input: 31 30% 85%;
-    --ring: 21 39% 50%;
+    --border: 30 15% 80%;
+    --input: 30 15% 80%;
+    --ring: 25 25% 35%;
     
-    --radius: 0.5rem;
+    --radius: 0rem;
 
-    /* Warm Earthy Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(31 60% 96%), hsl(31 40% 88%));
-    --gradient-text: linear-gradient(135deg, hsl(21 39% 50%), hsl(66 12% 34%));
-    --gradient-wave: linear-gradient(135deg, hsl(29 45% 71%), hsl(21 39% 50%));
+    /* Elegant Gradients */
+    --gradient-hero: linear-gradient(180deg, hsl(30 20% 92%) 0%, hsl(30 20% 88%) 100%);
+    --gradient-text: linear-gradient(135deg, hsl(25 25% 35%), hsl(20 30% 60%));
+    --gradient-wave: linear-gradient(135deg, hsl(25 25% 35%), hsl(20 30% 60%));
     
     /* Soft Shadows */
-    --shadow-soft: 0 2px 12px -6px hsl(21 39% 30% / 0.08);
-    --shadow-medium: 0 4px 20px -10px hsl(21 39% 30% / 0.12);
+    --shadow-soft: 0 2px 12px rgba(0, 0, 0, 0.06);
+    --shadow-medium: 0 4px 24px rgba(0, 0, 0, 0.1);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 

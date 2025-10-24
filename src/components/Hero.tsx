@@ -4,25 +4,41 @@ const Hero = () => {
       behavior: 'smooth'
     });
   };
-  return <section className="min-h-screen flex items-center justify-center bg-gradient-hero animate-fade-in">
-      <div className="container mx-auto px-6 text-center max-w-5xl">
-        <div className="space-y-8">
-          {/* Large Typography Logo Style - Alice Abadi inspired */}
-          <div className="space-y-2">
-            <h1 className="font-playfair text-7xl md:text-8xl lg:text-9xl font-normal leading-none">
-              <span className="text-primary text-7xl"></span>
-            </h1>
-            <h1 className="font-playfair text-5xl md:text-6xl lg:text-7xl font-light leading-none">
-              <span className="text-accent">TAMI BERTI</span>
-            </h1>
+
+  return (
+    <section className="min-h-screen flex items-center justify-center bg-background animate-fade-in px-6">
+      <div className="container mx-auto text-center max-w-4xl space-y-12">
+        {/* Logo "tb" - Minimalist monogram */}
+        <div className="flex justify-center mb-8">
+          <div className="text-8xl md:text-9xl font-cormorant text-primary/30 tracking-tighter">
+            tb
           </div>
+        </div>
+        
+        {/* Name with letter spacing */}
+        <div className="space-y-6">
+          <h1 className="font-playfair text-2xl md:text-3xl tracking-[0.3em] text-primary font-light uppercase">
+            TAMI BERTI
+          </h1>
           
-          {/* Simple subtitle */}
-          <p className="text-lg font-light tracking-wide mt-8 text-primary md:text-2xl">
-            Psicóloga Clínica
+          {/* Subtitle in italic */}
+          <p className="font-cormorant italic text-xl md:text-2xl text-primary/70 font-light">
+            psicóloga clínica
           </p>
         </div>
+
+        {/* CTA Button */}
+        <div className="pt-8">
+          <button
+            onClick={scrollToContact}
+            className="px-10 py-4 bg-accent text-accent-foreground uppercase text-xs tracking-[0.2em] font-light hover:bg-accent/90 transition-all duration-300"
+          >
+            Entre em contato
+          </button>
+        </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;

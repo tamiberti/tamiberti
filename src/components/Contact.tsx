@@ -1,32 +1,52 @@
-import { Button } from "@/components/ui/button";
 const Contact = () => {
-  return <section id="contact" className="py-24 md:py-32 px-6 animate-slide-up">
-      <div className="container mx-auto max-w-2xl">
-        <div className="space-y-12 md:space-y-16 text-center">
-          {/* Section Title */}
-          <h2 className="text-2xl font-playfair font-normal text-primary md:text-4xl">
-            Entre em contato
-          </h2>
+  return (
+    <section id="contact" className="py-24 md:py-32 px-6 bg-secondary-light animate-slide-up">
+      <div className="container mx-auto max-w-4xl">
+        <div className="space-y-12 md:space-y-16">
+          {/* Section Title - Mixed typography */}
+          <div className="space-y-2">
+            <h2 className="text-4xl md:text-6xl font-playfair uppercase tracking-wide text-primary font-light">
+              VAMOS
+            </h2>
+            <h2 className="text-5xl md:text-7xl font-cormorant italic text-primary font-light -mt-2">
+              conversar
+            </h2>
+          </div>
 
-          {/* Simple Contact Info */}
-          <div className="space-y-6 md:space-y-8">
-            
-            
-            <div className="space-y-3 text-base md:text-lg">
-              <p className="text-muted-foreground font-light">📧 tamisberti@gmail.com.br</p>
-              <p className="text-muted-foreground font-light">📱 (51) 99218-8634</p>
+          {/* Contact Info */}
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <h3 className="text-xs uppercase tracking-[0.2em] text-primary/70 font-light">
+                Telefone
+              </h3>
+              <p className="text-lg md:text-xl text-primary font-light">
+                (51) 99218-8634
+              </p>
             </div>
+
+            <div className="space-y-4">
+              <h3 className="text-xs uppercase tracking-[0.2em] text-primary/70 font-light">
+                E-mail
+              </h3>
+              <p className="text-lg md:text-xl text-primary font-light">
+                tamisberti@gmail.com.br
+              </p>
+            </div>
+          </div>
+
+          {/* CTA Button */}
+          <div className="pt-8">
+            <button
+              onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')}
+              className="px-10 py-4 bg-accent text-accent-foreground uppercase text-xs tracking-[0.2em] font-light hover:bg-accent/90 transition-all duration-300"
+            >
+              Entre em contato
+            </button>
           </div>
         </div>
       </div>
-      
-      {/* Fixed CTA Button - Alice Abadi style */}
-      <div className="fixed bottom-6 right-6 z-40">
-        <Button onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')} className="px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm font-light bg-primary text-primary-foreground hover:bg-primary/90">
-          Agende sua consulta
-          <span className="ml-2">📱</span>
-        </Button>
-      </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Contact;
