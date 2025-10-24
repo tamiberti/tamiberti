@@ -11,11 +11,11 @@ const About = () => {
               Me chamo Tami, sou psicóloga clínica e hospitalar.
             </p>
             
-            <p className="font-light">
+            <p className="font-light text-justify">
               Minha atuação é embasada na Terapia Sistêmica, abordagem que busca compreender cada pessoa em suas relações e contextos. Entendendo que vínculos, histórias e ambientes influenciam diretamente nossas escolhas, emoções e formas de estar no mundo.
             </p>
             
-            <p className="font-light">As sessões acontecem na modalidade online, o que nos permite trabalhar juntos, independentemente de onde você esteja. Nosso trabalho começa com uma avaliação clínica, para que eu possa te conhecer melhor e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre o teu ritmo e as tuas necessidades.</p>
+            <p className="font-light text-justify">As sessões acontecem na modalidade online, o que nos permite trabalhar juntos, independentemente de onde você esteja. Nosso trabalho começa com uma avaliação clínica, para que eu possa te conhecer melhor e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre o teu ritmo e as tuas necessidades.</p>
             
             <p className="font-light">A terapia é um espaço para dar voz ao que sentimos, revisitar histórias e vivenciar mudanças. Isso se torna possível quando a relação terapêutica é construída com confiança, acolhimento e autenticidade. A postura ética, abstinente de julgamentos, cuidadosa e marcada pelo sigilo profissional é algo que perpassa todo o processo de psicoterapia . </p>
             
