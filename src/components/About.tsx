@@ -1,12 +1,9 @@
 const About = () => {
-  return (
-    <section id="about" className="py-24 md:py-32 px-6 bg-secondary animate-page-enter">
+  return <section id="about" className="py-24 md:py-32 px-6 bg-secondary animate-page-enter">
       <div className="container mx-auto max-w-4xl">
-        <div className="space-y-12 md:space-y-16">
+        <div className="space-y-12 md:space-y-16 py-0">
           {/* Section Title */}
-          <h2 className="text-4xl md:text-5xl font-cormorant italic text-background font-light">
-            Oi, que bom te ver por aqui!
-          </h2>
+          <h2 className="text-4xl font-cormorant italic text-background md:text-6xl font-medium mx-0 my-[7px] px-0 py-0">Oi, que bom te ter por aqui!</h2>
 
           {/* Content */}
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-background">
@@ -18,17 +15,11 @@ const About = () => {
               Minha atuação é embasada na Terapia Sistêmica, abordagem que busca compreender cada pessoa em suas relações e contextos. Entendendo que vínculos, histórias e ambientes influenciam diretamente nossas escolhas, emoções e formas de estar no mundo.
             </p>
             
-            <p className="font-light">
-              As sessões acontecem na modalidade online, o que nos permite trabalhar juntos, independentemente de onde você esteja.
-            </p>
+            <p className="font-light">As sessões acontecem na modalidade online, o que nos permite trabalhar juntos, independentemente de onde você esteja. Nosso trabalho começa com uma avaliação clínica, para que eu possa te conhecer melhor e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre o teu ritmo e as tuas necessidades.</p>
             
-            <p className="font-light">
-              A terapia é um espaço para dar voz ao que sentimos, revisitar histórias e vivenciar mudanças. Isso se torna possível quando a relação terapêutica é construída com confiança, acolhimento e autenticidade. Nosso trabalho aqui começa com uma avaliação clínica, para que eu possa te conhecer melhor e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre teu ritmo e tuas necessidades.
-            </p>
+            <p className="font-light">A terapia é um espaço para dar voz ao que sentimos, revisitar histórias e vivenciar mudanças. Isso se torna possível quando a relação terapêutica é construída com confiança, acolhimento e autenticidade. A postura ética, abstinente de julgamentos, cuidadosa e marcada pelo sigilo profissional é algo que perpassa todo o processo de psicoterapia . </p>
             
-            <p className="font-light">
-              O que você busca aqui é legítimo, independente da demanda e siga acolhido com cuidado e comprometimento. Se me permitir duvidar, faça a vontade para me procurar. Conte comigo!
-            </p>
+            <p className="font-light">Se tiver alguma dúvida, fique à vontade para me procurar. Conte comigo!</p>
           </div>
 
           {/* Currículo Section - Texto corrido sem accordion */}
@@ -78,8 +69,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
