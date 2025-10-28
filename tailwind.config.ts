@@ -87,11 +87,13 @@ export default {
 				'medium': 'var(--shadow-medium)',
 				'strong': 'var(--shadow-strong)',
 			},
-			fontFamily: {
-				'inter': ['Inter', 'sans-serif'],
-				'playfair': ['Playfair Display', 'serif'],
-				'cormorant': ['Cormorant Garamond', 'serif'],
-			},
+		fontFamily: {
+			'inter': ['Inter', 'sans-serif'],
+			'playfair': ['Playfair Display', 'serif'],
+			'cormorant': ['Cormorant Garamond', 'serif'],
+			'cinzel': ['Cinzel', 'serif'],
+			'crimson': ['Crimson Text', 'serif'],
+		},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
@@ -162,23 +164,36 @@ export default {
 						filter: 'blur(0px)'
 					}
 				},
-				'wave-reveal': {
-					'0%': {
-						transform: 'translateY(0)',
-					},
-					'100%': {
-						transform: 'translateY(-100%)',
-					}
+			'wave-reveal': {
+				'0%': {
+					transform: 'translateY(0)',
+				},
+				'100%': {
+					transform: 'translateY(-100%)',
 				}
 			},
+			'scale-in': {
+				'0%': {
+					opacity: '0',
+					transform: 'scale(0.9)',
+					filter: 'blur(3px)'
+				},
+				'100%': {
+					opacity: '1',
+					transform: 'scale(1)',
+					filter: 'blur(0px)'
+				}
+			}
+			},
 			animation: {
-				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 1.2s cubic-bezier(0.16, 1, 0.3, 1)',
-				'slide-up': 'slide-up 1s cubic-bezier(0.16, 1, 0.3, 1)',
-				'smooth-fade': 'smooth-fade 1.4s cubic-bezier(0.16, 1, 0.3, 1)',
-				'page-enter': 'page-enter 0.8s cubic-bezier(0.16, 1, 0.3, 1)',
-				'wave-reveal': 'wave-reveal 1s cubic-bezier(0.65, 0, 0.35, 1) forwards'
+			'accordion-down': 'accordion-down 0.2s ease-out',
+			'accordion-up': 'accordion-up 0.2s ease-out',
+			'fade-in': 'fade-in 1.2s cubic-bezier(0.16, 1, 0.3, 1)',
+			'slide-up': 'slide-up 1s cubic-bezier(0.16, 1, 0.3, 1)',
+			'smooth-fade': 'smooth-fade 1.4s cubic-bezier(0.16, 1, 0.3, 1)',
+			'page-enter': 'page-enter 0.8s cubic-bezier(0.16, 1, 0.3, 1)',
+			'wave-reveal': 'wave-reveal 1s cubic-bezier(0.65, 0, 0.35, 1) forwards',
+			'scale-in': 'scale-in 0.9s cubic-bezier(0.16, 1, 0.3, 1)'
 			}
 		}
 	},

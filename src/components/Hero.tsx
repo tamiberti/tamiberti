@@ -3,14 +3,32 @@ import logo from "@/assets/logo.png";
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-background animate-fade-in px-6 pt-16">
-      <div className="container mx-auto text-center max-w-6xl w-full">
-        {/* Logo Image - Ampliado para ocupar a página */}
-        <div className="flex justify-center w-full">
-          <img 
-            src={logo} 
-            alt="Tami Berti - Psicóloga Clínica" 
-            className="w-full max-w-2xl md:max-w-3xl lg:max-w-4xl h-auto object-contain"
-          />
+      <div className="container mx-auto text-center max-w-4xl w-full">
+        <div className="flex flex-col items-center justify-center space-y-8">
+          {/* Logo Image */}
+          <div className="w-full max-w-md animate-scale-in">
+            <img 
+              src={logo} 
+              alt="Tami Berti - Psicóloga Clínica" 
+              className="w-full h-auto object-contain"
+            />
+          </div>
+          
+          {/* Name */}
+          <h1 
+            className="text-5xl md:text-7xl lg:text-8xl font-cinzel text-foreground tracking-wider animate-fade-in"
+            style={{ animationDelay: '300ms' }}
+          >
+            TAMI BERTI
+          </h1>
+          
+          {/* Subtitle */}
+          <p 
+            className="text-2xl md:text-3xl lg:text-4xl font-crimson italic text-muted-foreground animate-fade-in"
+            style={{ animationDelay: '600ms' }}
+          >
+            Psicóloga Clínica
+          </p>
         </div>
       </div>
     </section>
