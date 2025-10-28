@@ -1,12 +1,15 @@
+import tamiPhoto from "@/assets/tami-photo.jpg";
+
 const About = () => {
   return <section id="about" className="py-24 md:py-32 px-6 bg-secondary animate-page-enter">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 md:space-y-16 py-0">
           {/* Section Title */}
           <h2 className="text-4xl font-cormorant italic text-background md:text-6xl font-medium mx-0 my-[7px] px-0 py-0">Oi, que bom te ter por aqui!</h2>
 
-          {/* Content */}
-          <div className="space-y-6 text-base md:text-lg leading-relaxed text-background">
+          {/* Content with Photo */}
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+            <div className="space-y-6 text-base md:text-lg leading-relaxed text-background">
             <p className="font-light">
               Me chamo Tami, sou psicóloga clínica e hospitalar.
             </p>
@@ -20,16 +23,23 @@ const About = () => {
             <p className="font-light">A terapia é um espaço para dar voz ao que sentimos, revisitar histórias e vivenciar mudanças. Isso se torna possível quando a relação terapêutica é construída com confiança, acolhimento e autenticidade. A postura ética, abstinente de julgamentos, cuidadosa e marcada pelo sigilo profissional é algo que perpassa todo o processo de psicoterapia . </p>
             
             <p className="font-light">Se tiver alguma dúvida, fique à vontade para me procurar. Conte comigo!</p>
+            </div>
+
+            {/* Photo */}
+            <div className="flex justify-center md:justify-end">
+              <img 
+                src={tamiPhoto} 
+                alt="Tami Berti - Psicóloga" 
+                className="w-full max-w-md rounded-lg shadow-lg object-cover"
+              />
+            </div>
           </div>
 
           {/* Currículo Section - Texto corrido sem accordion */}
           <div className="pt-12 md:pt-16 space-y-8 border-t border-background/20">
-            <div className="flex items-center gap-8">
-              <h3 className="text-4xl md:text-5xl font-cormorant italic text-background font-light">
-                Currículo
-              </h3>
-              <div className="flex-1 h-px bg-background/20"></div>
-            </div>
+            <h3 className="text-4xl md:text-5xl font-cormorant italic text-background font-light">
+              Currículo
+            </h3>
 
             <div className="space-y-8">
               <div className="space-y-4">
