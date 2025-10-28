@@ -10,25 +10,25 @@ All colors MUST be HSL.
   :root {
     /* Warm Minimalist Theme - Inspired by natural tones */
     --background: 30 20% 94%;
-    --foreground: 30 8% 20%;
+    --foreground: 30 12% 15%;
     
     --card: 30 25% 90%;
-    --card-foreground: 30 8% 20%;
+    --card-foreground: 30 12% 15%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 30 8% 20%;
+    --popover-foreground: 30 12% 15%;
     
     --primary: 25 35% 75%;
-    --primary-foreground: 30 8% 20%;
+    --primary-foreground: 30 12% 15%;
     
     --secondary: 35 30% 82%;
-    --secondary-foreground: 30 8% 20%;
+    --secondary-foreground: 30 12% 15%;
     
     --muted: 30 20% 88%;
-    --muted-foreground: 30 8% 40%;
+    --muted-foreground: 30 12% 30%;
     
     --accent: 30 25% 85%;
-    --accent-foreground: 30 8% 20%;
+    --accent-foreground: 30 12% 15%;
     
     --destructive: 0 50% 50%;
     --destructive-foreground: 30 8% 95%;
