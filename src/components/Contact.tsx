@@ -34,8 +34,8 @@ const Contact = () => {
           </div>
 
           {/* CTA Button */}
-          <div className="pt-8">
-            <button onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')} className="px-10 py-4 uppercase text-xs tracking-[0.2em] font-light transition-all duration-300 bg-slate-500 hover:bg-slate-400 text-slate-950">
+          <div className="pt-8 text-red-50 bg-[#8b7471]">
+            <button onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')} className="px-10 py-4 bg-accent text-accent-foreground uppercase text-xs tracking-[0.2em] font-light hover:bg-accent/90 transition-all duration-300">
               Entre em contato
             </button>
           </div>
