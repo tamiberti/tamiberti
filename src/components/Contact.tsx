@@ -1,6 +1,5 @@
 const Contact = () => {
-  return (
-    <section id="contact" className="py-24 md:py-32 px-6 bg-secondary-light animate-slide-up">
+  return <section id="contact" className="py-24 md:py-32 px-6 bg-secondary-light animate-slide-up">
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-12 md:space-y-16">
           {/* Section Title - Mixed typography */}
@@ -36,17 +35,12 @@ const Contact = () => {
 
           {/* CTA Button */}
           <div className="pt-8">
-            <button
-              onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')}
-              className="px-10 py-4 bg-accent text-accent-foreground uppercase text-xs tracking-[0.2em] font-light hover:bg-accent/90 transition-all duration-300"
-            >
+            <button onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')} className="px-10 py-4 uppercase text-xs tracking-[0.2em] font-light transition-all duration-300 bg-slate-500 hover:bg-slate-400 text-slate-950">
               Entre em contato
             </button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;

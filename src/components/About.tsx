@@ -1,11 +1,10 @@
 import tamiPhoto from "@/assets/tami-photo.jpg";
-
 const About = () => {
   return <section id="about" className="py-24 md:py-32 px-6 bg-secondary animate-page-enter">
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 md:space-y-16 py-0">
           {/* Section Title */}
-          <h2 className="text-4xl font-cormorant italic text-background md:text-6xl font-medium mx-0 my-[7px] px-0 py-0">Oi, que bom te ter por aqui!</h2>
+          <h2 className="text-4xl font-cormorant italic md:text-6xl font-medium mx-0 my-[7px] px-0 py-0 text-yellow-800">Oi, que bom te ter por aqui!</h2>
 
           {/* Content with Photo */}
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
@@ -27,11 +26,7 @@ const About = () => {
 
             {/* Photo */}
             <div className="flex justify-center md:justify-end">
-              <img 
-                src={tamiPhoto} 
-                alt="Tami Berti - Psicóloga" 
-                className="w-full max-w-md rounded-lg shadow-lg object-cover"
-              />
+              <img src={tamiPhoto} alt="Tami Berti - Psicóloga" className="w-full max-w-md rounded-lg shadow-lg object-cover" />
             </div>
           </div>
 
