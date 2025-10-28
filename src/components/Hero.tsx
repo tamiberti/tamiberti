@@ -6,18 +6,19 @@ const Hero = () => {
       <div className="container mx-auto text-center max-w-4xl w-full">
         <div className="flex flex-col items-center justify-center space-y-8">
           {/* Logo Image */}
-          <div className="w-full max-w-md animate-scale-in">
+          <div className="w-full max-w-md animate-scale-in opacity-90">
             <img 
               src={logo} 
               alt="Tami Berti - Psicóloga Clínica" 
               className="w-full h-auto object-contain"
+              style={{ filter: 'brightness(0.85) contrast(1.1)' }}
             />
           </div>
           
           {/* Name */}
           <h1 
             className="text-5xl md:text-7xl lg:text-8xl font-cinzel text-foreground tracking-wider animate-fade-in"
-            style={{ animationDelay: '300ms' }}
+            style={{ animationDelay: '300ms', animationFillMode: 'both' }}
           >
             TAMI BERTI
           </h1>
@@ -25,7 +26,7 @@ const Hero = () => {
           {/* Subtitle */}
           <p 
             className="text-2xl md:text-3xl lg:text-4xl font-crimson italic text-muted-foreground animate-fade-in"
-            style={{ animationDelay: '600ms' }}
+            style={{ animationDelay: '600ms', animationFillMode: 'both' }}
           >
             Psicóloga Clínica
           </p>
