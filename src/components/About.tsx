@@ -1,50 +1,48 @@
 import profileImage from "@/assets/tami-berti-profile.jpg";
-
 const About = () => {
   return <section id="about" className="py-24 md:py-32 px-6 animate-page-enter">
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 md:space-y-16">
           {/* Section Title */}
-          <h2 className="text-3xl md:text-4xl font-playfair text-primary text-left font-normal lg:text-4xl">
+          <h2 className="text-3xl md:text-4xl font-playfair text-left font-normal lg:text-4xl text-red-50">
             Sobre mim
           </h2>
 
           {/* Content with Image */}
           <div className="grid md:grid-cols-[1fr,auto] gap-8 md:gap-12 items-start">
             <div className="space-y-6 text-base md:text-lg leading-relaxed text-left">
-              <p className="text-xl text-primary text-left md:text-lg font-extrabold">
+              <p className="text-xl text-left md:text-lg text-slate-700 font-extrabold">
                 Oi, que bom te ter por aqui!
               </p>
               
-              <p className="text-muted-foreground font-light text-justify">Eu sou a Tami, gaúcha, natural de Porto Alegre. Sou psicóloga clínica há cinco anos, com experiência também na área da psicologia hospitalar. Atualmente vivencio pela segunda vez o processo de imigração,  experiência que me aproxima dos desafios de quem escolhe (ou precisa) viver fora do seu país. Por isso, tenho me dedicado a acolher brasileiros que atravessam esse caminho, oferecendo um espaço de escuta, compreensão e apoio. Meu atendimento acontece de forma online, o que nos permite trabalhar juntos, independentemente de onde você esteja.</p>
+              <p className="text-muted-foreground font-light text-justify">Eu sou a Tami, psicóloga clínica e hospitalar. Minha atuação é voltada ao cuidado emocional de adultos e embasada na Terapia Sistêmica, uma abordagem que compreende cada pessoa em suas relações e contextos, reconhecendo que vínculos, histórias e ambientes influenciam  nossas escolhas, emoções e formas de estar no mundo.</p>
               
-              <p className="text-muted-foreground font-light text-justify">Atendo exclusivamente adultos e atuo a partir da Terapia Sistêmica, abordagem que busca compreender cada pessoa em suas relações e contextos. Entendendo que vínculos, histórias e ambientes influenciam diretamente nossas escolhas, emoções e formas de estar no mundo.</p>
+              <p className="text-muted-foreground font-light text-justify">As minhas sessões acontecem de forma online, o que nos permite trabalhar juntos, independentemente de onde você esteja. Atendo em especial brasileiros que vivem fora do país, acolhendo as particularidades de quem atravessa o processo de migração e os desafios de se reinventar longe de casa. Ainda assim, este é um espaço aberto a todas as pessoas que buscam cuidar de si com mais presença e gentileza.</p>
               
-              <p className="text-muted-foreground font-light text-justify">A terapia é um espaço para dar voz ao que sentimos, revisitar histórias e vivenciar mudanças. Isso se torna possível quando a relação terapêutica é construída com confiança, acolhimento e autenticidade. Nosso trabalho aqui começa com uma avaliação clínica, para que eu possa te conhecer melhor e identificar de que forma posso ajudar. A partir daí, seguimos com o processo terapêutico, no qual construímos, passo a passo, um espaço seguro de acolhimento e reflexão. Nele, vamos estabelecer objetivos juntos, respeitando sempre teu ritmo e tuas necessidades.</p>
+              <p className="text-muted-foreground font-light text-justify">Nosso trabalho começa com uma avaliação clínica, para que eu possa te conhecer e entender de que forma posso te ajudar. A partir daí, seguimos juntos com o processo terapêutico, construindo passo a passo um espaço seguro de acolhimento e reflexão. Nesse percurso, definimos objetivos em conjunto, respeitando sempre o teu ritmo e as tuas necessidades.
+
+
+A terapia é um convite a dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Esse processo acontece a partir de uma relação construída com confiança, ética e autenticidade, sustentada pela escuta atenta e livre de julgamentos.</p>
               
-              <p className="text-muted-foreground font-light">Se tiver alguma dúvida, fique à vontade para me procurar. 
-Conte comigo!</p>
+              <p className="text-muted-foreground font-light">Se quiser saber mais ou tiver alguma dúvida, fique à vontade para me procurar.
+Conta comigo!</p>
             </div>
 
             {/* Profile Image */}
             <div className="md:w-64 lg:w-80 animate-fade-in">
-              <img 
-                src={profileImage} 
-                alt="Tami Berti" 
-                className="rounded-lg shadow-medium w-full object-cover"
-              />
+              <img src={profileImage} alt="Tami Berti" className="rounded-lg shadow-medium w-full object-cover" />
             </div>
           </div>
 
           {/* Formação Section - Now as continuous text */}
           <div className="pt-8 md:pt-12 space-y-8">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-playfair font-normal text-left text-primary">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-playfair font-normal text-left text-red-50">
               Currículo
             </h3>
             
             <div className="space-y-8">
               <div className="space-y-4 text-left">
-                <h4 className="text-xl md:text-2xl font-playfair font-normal text-primary mb-4">
+                <h4 className="text-xl md:text-2xl font-playfair font-normal mb-4 text-slate-500">
                   Formação Acadêmica
                 </h4>
                 <p className="text-muted-foreground font-light text-justify">
@@ -62,7 +60,7 @@ Conte comigo!</p>
               </div>
 
               <div className="space-y-4 pt-6 md:pt-8">
-                <h4 className="text-xl md:text-2xl font-playfair font-normal text-left text-primary">
+                <h4 className="text-xl md:text-2xl font-playfair font-normal text-left text-slate-500">
                   Registro Profissional
                 </h4>
                 <div className="text-left space-y-2">

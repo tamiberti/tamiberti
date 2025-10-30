@@ -9,12 +9,12 @@ const Hero = () => {
           </div>
           
           {/* Name - Tamanho médio */}
-          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-light leading-none my-0 text-[#513535]">
+          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-light leading-none my-0 text-red-100">
             TAMI BERTI
           </h1>
           
           {/* Subtitle - Menor */}
-          <p className="text-base font-light tracking-wide md:text-xl text-[#523535]">
+          <p className="text-base font-light tracking-wide md:text-xl text-slate-500">
             Psicóloga Clínica
           </p>
         </div>
