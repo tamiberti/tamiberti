@@ -10,13 +10,13 @@ All colors MUST be HSL.
   :root {
     /* Warm Terracotta & Earth Tones - Inspired by Profile Photo */
     --background: 35 45% 94%;
-    --foreground: 25 35% 25%;
+    --foreground: 0 23% 32%;
     
     --card: 35 40% 96%;
-    --card-foreground: 25 35% 25%;
+    --card-foreground: 0 23% 32%;
     
     --popover: 35 45% 94%;
-    --popover-foreground: 25 35% 25%;
+    --popover-foreground: 0 23% 32%;
     
     --primary: 25 45% 45%;
     --primary-foreground: 35 50% 96%;
@@ -28,7 +28,7 @@ All colors MUST be HSL.
     --muted-foreground: 25 25% 45%;
     
     --accent: 35 50% 70%;
-    --accent-foreground: 25 35% 25%;
+    --accent-foreground: 0 23% 32%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 98%;
