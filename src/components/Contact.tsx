@@ -22,7 +22,7 @@ const Contact = () => {
       
       {/* Fixed CTA Button - Alice Abadi style */}
       <div className="fixed bottom-6 right-6 z-40">
-        <Button onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')} className="px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm font-light bg-primary text-primary-foreground hover:bg-primary/90">
+        <Button onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')} className="px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm font-light text-primary-foreground bg-[#513535]">
           Agende sua consulta
           <span className="ml-2">📱</span>
         </Button>
