@@ -3,13 +3,13 @@ import logoImage from "@/assets/logo.png";
 const Hero = () => {
   return <section className="min-h-screen flex items-center justify-center bg-gradient-hero animate-fade-in">
       <div className="container mx-auto px-6 text-center max-w-5xl">
-        <div className="space-y-6">
+        <div className="space-y-3">
           {/* Logo - Maior e em destaque */}
           <div className="flex justify-center animate-scale-in">
             <img 
               src={logoImage} 
               alt="Tami Berti Logo" 
-              className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain"
+              className="w-80 h-80 md:w-[28rem] md:h-[28rem] lg:w-[32rem] lg:h-[32rem] object-contain"
             />
           </div>
           
