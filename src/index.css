@@ -8,45 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Warm Terracotta & Earth Tones - Inspired by Profile Photo */
-    --background: 35 45% 94%;
-    --foreground: 0 23% 32%;
+    /* Peach Fuzz 2024 Color Palette */
+    --background: 13 40% 81%;
+    --foreground: 213 11% 35%;
     
-    --card: 35 40% 96%;
-    --card-foreground: 0 23% 32%;
+    --card: 13 40% 85%;
+    --card-foreground: 213 11% 35%;
     
-    --popover: 35 45% 94%;
-    --popover-foreground: 0 23% 32%;
+    --popover: 13 40% 81%;
+    --popover-foreground: 213 11% 35%;
     
-    --primary: 25 45% 45%;
-    --primary-foreground: 35 50% 96%;
+    --primary: 21 75% 73%;
+    --primary-foreground: 213 11% 35%;
     
-    --secondary: 30 35% 55%;
-    --secondary-foreground: 35 50% 96%;
+    --secondary: 228 9% 64%;
+    --secondary-foreground: 213 11% 35%;
     
-    --muted: 35 30% 85%;
-    --muted-foreground: 25 25% 45%;
+    --muted: 13 40% 88%;
+    --muted-foreground: 213 11% 45%;
     
-    --accent: 35 50% 70%;
-    --accent-foreground: 0 23% 32%;
+    --accent: 21 75% 73%;
+    --accent-foreground: 213 11% 35%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 35 25% 82%;
-    --input: 35 25% 82%;
-    --ring: 25 45% 45%;
+    --border: 13 30% 75%;
+    --input: 13 30% 75%;
+    --ring: 21 75% 73%;
     
     --radius: 0.5rem;
 
-    /* Terracotta & Earth Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(35 45% 94%), hsl(30 40% 88%));
-    --gradient-text: linear-gradient(135deg, hsl(25 45% 45%), hsl(30 35% 55%));
-    --gradient-wave: linear-gradient(135deg, hsl(35 50% 70%), hsl(25 45% 45%));
+    /* Peach Fuzz Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(13 40% 81%), hsl(21 75% 73%));
+    --gradient-text: linear-gradient(135deg, hsl(21 75% 73%), hsl(228 9% 64%));
+    --gradient-wave: linear-gradient(135deg, hsl(21 75% 73%), hsl(13 40% 81%));
     
-    /* Warm Shadows */
-    --shadow-soft: 0 2px 12px -6px hsl(25 35% 25% / 0.08);
-    --shadow-medium: 0 4px 20px -10px hsl(25 35% 25% / 0.12);
+    /* Soft Shadows */
+    --shadow-soft: 0 2px 12px -6px hsl(213 11% 35% / 0.08);
+    --shadow-medium: 0 4px 20px -10px hsl(213 11% 35% / 0.12);
 
     --sidebar-background: 0 0% 98%;
 
@@ -66,33 +66,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 25 30% 14%;
-    --foreground: 35 40% 88%;
+    --background: 213 11% 22%;
+    --foreground: 13 40% 81%;
     
-    --card: 25 25% 18%;
-    --card-foreground: 35 40% 88%;
+    --card: 213 11% 26%;
+    --card-foreground: 13 40% 81%;
     
-    --popover: 25 30% 14%;
-    --popover-foreground: 35 40% 88%;
+    --popover: 213 11% 22%;
+    --popover-foreground: 13 40% 81%;
     
-    --primary: 30 50% 58%;
-    --primary-foreground: 25 30% 14%;
+    --primary: 21 75% 73%;
+    --primary-foreground: 213 11% 22%;
     
-    --secondary: 30 40% 48%;
-    --secondary-foreground: 35 40% 88%;
+    --secondary: 228 9% 64%;
+    --secondary-foreground: 213 11% 22%;
     
-    --muted: 25 20% 22%;
-    --muted-foreground: 35 30% 62%;
+    --muted: 213 11% 30%;
+    --muted-foreground: 228 9% 70%;
     
-    --accent: 35 45% 60%;
-    --accent-foreground: 25 30% 14%;
+    --accent: 21 75% 65%;
+    --accent-foreground: 213 11% 22%;
     
     --destructive: 0 50% 40%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 25 20% 28%;
-    --input: 25 20% 28%;
-    --ring: 30 50% 58%;
+    --border: 213 11% 35%;
+    --input: 213 11% 35%;
+    --ring: 21 75% 73%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
