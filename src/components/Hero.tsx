@@ -3,23 +3,23 @@ import logoImage from "@/assets/logo.png";
 const Hero = () => {
   return <section className="min-h-screen flex items-center justify-center bg-gradient-hero animate-fade-in">
       <div className="container mx-auto px-6 text-center max-w-5xl">
-        <div className="space-y-8">
-          {/* Logo */}
-          <div className="flex justify-center mb-8 animate-scale-in">
+        <div className="space-y-6">
+          {/* Logo - Maior e em destaque */}
+          <div className="flex justify-center animate-scale-in">
             <img 
               src={logoImage} 
               alt="Tami Berti Logo" 
-              className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-contain"
+              className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain"
             />
           </div>
           
-          {/* Name */}
-          <h1 className="font-playfair text-5xl md:text-6xl lg:text-7xl font-light leading-none text-primary">
+          {/* Name - Tamanho médio */}
+          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-light leading-none text-primary">
             TAMI BERTI
           </h1>
           
-          {/* Subtitle */}
-          <p className="text-lg font-light tracking-wide mt-8 text-muted-foreground md:text-2xl">
+          {/* Subtitle - Menor */}
+          <p className="text-base font-light tracking-wide text-muted-foreground md:text-xl">
             Psicóloga Clínica
           </p>
         </div>
