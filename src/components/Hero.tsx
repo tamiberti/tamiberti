@@ -1,28 +1,24 @@
-import logo from "@/assets/logo.png";
 const Hero = () => {
-  return <section className="min-h-screen flex items-center justify-center bg-background animate-fade-in px-6 pt-16">
-      <div className="container mx-auto text-center max-w-4xl w-full">
-        <div className="flex flex-col items-center justify-center space-y-8">
-          {/* Logo Image */}
-          <div className="w-full max-w-md animate-scale-in opacity-90">
-            <img src={logo} alt="Tami Berti - Psicóloga Clínica" className="w-full h-auto object-contain" style={{
-            filter: 'brightness(0.85) contrast(1.1)'
-          }} />
+  const scrollToContact = () => {
+    document.getElementById('contact')?.scrollIntoView({
+      behavior: 'smooth'
+    });
+  };
+  return <section className="min-h-screen flex items-center justify-center bg-gradient-hero animate-fade-in">
+      <div className="container mx-auto px-6 text-center max-w-5xl">
+        <div className="space-y-8">
+          {/* Large Typography Logo Style - Alice Abadi inspired */}
+          <div className="space-y-2">
+            <h1 className="font-playfair text-7xl md:text-8xl lg:text-9xl font-normal leading-none">
+              <span className="text-primary text-7xl"></span>
+            </h1>
+            <h1 className="font-playfair text-5xl md:text-6xl lg:text-7xl font-light leading-none">
+              <span className="text-accent">TAMI BERTI</span>
+            </h1>
           </div>
           
-          {/* Name */}
-          <h1 style={{
-          animationDelay: '300ms',
-          animationFillMode: 'both'
-        }} className="text-5xl md:text-7xl lg:text-8xl font-cinzel tracking-wider animate-fade-in text-[#8d6f5b]">
-            TAMI BERTI
-          </h1>
-          
-          {/* Subtitle */}
-          <p style={{
-          animationDelay: '600ms',
-          animationFillMode: 'both'
-        }} className="text-2xl md:text-3xl lg:text-4xl font-crimson italic animate-fade-in text-[#937562] mx-0">
+          {/* Simple subtitle */}
+          <p className="text-lg font-light tracking-wide mt-8 text-primary md:text-2xl">
             Psicóloga Clínica
           </p>
         </div>

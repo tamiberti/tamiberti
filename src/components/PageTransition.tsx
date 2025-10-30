@@ -32,8 +32,8 @@ const PageTransition = ({ children }: PageTransitionProps) => {
         >
           <defs>
             <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="hsl(25 35% 75%)" />
-              <stop offset="100%" stopColor="hsl(35 30% 82%)" />
+              <stop offset="0%" stopColor="hsl(21 39% 50%)" />
+              <stop offset="100%" stopColor="hsl(29 45% 71%)" />
             </linearGradient>
           </defs>
           <path
