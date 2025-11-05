@@ -30,14 +30,8 @@ const PageTransition = ({ children }: PageTransitionProps) => {
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <defs>
-            <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="hsl(327 20% 66%)" />
-              <stop offset="100%" stopColor="hsl(0 33% 87%)" />
-            </linearGradient>
-          </defs>
           <path
-            fill="url(#waveGradient)"
+            fill="hsl(10 20% 72%)"
             d="M0,0 L1440,0 L1440,800 Q1080,700 720,800 T0,800 Z"
             className="animate-wave-reveal"
           />
