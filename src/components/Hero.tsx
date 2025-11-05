@@ -1,6 +1,6 @@
 import logoImage from "@/assets/logo.png";
 const Hero = () => {
-  return <section className="min-h-screen flex items-center justify-center bg-primary animate-fade-in">
+  return <section className="min-h-screen flex items-center justify-center bg-background animate-fade-in">
       <div className="container mx-auto px-6 text-center max-w-5xl">
       <div className="space-y-1">
         {/* Logo - Maior e em destaque */}
