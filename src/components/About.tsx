@@ -15,21 +15,17 @@ const About = () => {
                 Oi, que bom te ter por aqui!
               </p>
               
-              <p className="text-muted-foreground font-light text-justify">Eu sou a Tami, psicóloga clínica e hospitalar. 
-
-
+              <p className="text-muted-foreground font-light text-justify">Eu sou a Tami, psicóloga clínica e hospitalar.  
 Minha atuação é voltada ao cuidado emocional de adultos e embasada na Terapia Sistêmica, uma abordagem que compreende cada pessoa em suas relações e contextos, reconhecendo que vínculos, histórias e ambientes influenciam  nossas escolhas, emoções e formas de estar no mundo.</p>
               
-              <p className="text-muted-foreground font-light text-justify">A terapia é um convite a dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Esse processo acontece a partir de uma relação construída com confiança, ética e autenticidade, sustentada pela escuta atenta e livre de julgamentos.
+              <p className="text-muted-foreground font-light text-justify">A terapia é um convite a dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Esse processo acontece a partir de uma relação construída com confiança, ética e autenticidade, sustentada pela escuta atenta e livre de julgamentos. 
 
 
 As minhas sessões acontecem de forma online, o que nos permite trabalhar juntos, independentemente de onde você esteja. Atendo em especial brasileiros que vivem fora do país, acolhendo as particularidades de quem atravessa o processo de migração e os desafios de se reinventar longe de casa. Ainda assim, este é um espaço aberto a todas as pessoas que buscam cuidar de si com mais presença e gentileza.</p>
               
               <p className="text-muted-foreground font-light text-justify">Nosso trabalho começa com uma avaliação clínica, para que eu possa te conhecer e entender de que forma posso te ajudar. A partir daí, seguimos juntos com o processo terapêutico, construindo passo a passo um espaço seguro de acolhimento e reflexão. Nesse percurso, definimos objetivos em conjunto, respeitando sempre o teu ritmo e as tuas necessidades. </p>
               
-              <p className="text-muted-foreground font-light">Se quiser saber mais ou tiver alguma dúvida, fique à vontade para me procurar. 
-
-
+              <p className="text-muted-foreground font-light">Se quiser saber mais ou tiver alguma dúvida, fique à vontade para me procurar.  
 Conta comigo!</p>
             </div>
 
