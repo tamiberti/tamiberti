@@ -4,14 +4,14 @@ const About = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 md:space-y-16">
           {/* Section Title */}
-          <h2 className="text-3xl md:text-4xl font-playfair text-left font-normal lg:text-4xl text-red-50">
+          <h2 className="text-3xl md:text-4xl font-playfair text-left font-normal lg:text-4xl text-[#806751]">
             Sobre mim
           </h2>
 
           {/* Content with Image */}
           <div className="grid md:grid-cols-[1fr,auto] gap-8 md:gap-12 items-start">
             <div className="space-y-6 text-base md:text-lg leading-relaxed text-left">
-              <p className="text-xl text-left md:text-lg text-slate-700 font-extrabold">
+              <p className="text-xl text-left md:text-lg font-extrabold text-[#806751]">
                 Oi, que bom te ter por aqui!
               </p>
               
@@ -36,13 +36,13 @@ Conta comigo!</p>
 
           {/* Formação Section - Now as continuous text */}
           <div className="pt-8 md:pt-12 space-y-8">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-playfair font-normal text-left text-red-50">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-playfair font-normal text-left text-[#806751]">
               Currículo
             </h3>
             
             <div className="space-y-8">
               <div className="space-y-4 text-left">
-                <h4 className="text-xl md:text-2xl font-playfair font-normal mb-4 text-slate-500">
+                <h4 className="text-xl md:text-2xl font-playfair font-normal mb-4 text-[#7a634f]">
                   Formação Acadêmica
                 </h4>
                 <p className="text-muted-foreground font-light text-justify">
@@ -60,7 +60,7 @@ Conta comigo!</p>
               </div>
 
               <div className="space-y-4 pt-6 md:pt-8">
-                <h4 className="text-xl md:text-2xl font-playfair font-normal text-left text-slate-500">
+                <h4 className="text-xl md:text-2xl font-playfair font-normal text-left text-[#806751]">
                   Registro Profissional
                 </h4>
                 <div className="text-left space-y-2">
