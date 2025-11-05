@@ -31,7 +31,7 @@ const PageTransition = ({ children }: PageTransitionProps) => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill="hsl(10 20% 72%)"
+            fill="hsl(10 30% 75%)"
             d="M0,0 L1440,0 L1440,800 Q1080,700 720,800 T0,800 Z"
             className="animate-wave-reveal"
           />
