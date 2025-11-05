@@ -4,7 +4,7 @@ const Contact = () => {
       <div className="container mx-auto max-w-2xl">
         <div className="space-y-12 md:space-y-16 text-center">
           {/* Section Title */}
-          <h2 className="text-2xl font-playfair font-normal md:text-4xl text-red-50">
+          <h2 className="text-2xl font-playfair font-normal md:text-4xl text-foreground">
             Entre em contato
           </h2>
 
@@ -22,7 +22,7 @@ const Contact = () => {
       
       {/* Fixed CTA Button - Alice Abadi style */}
       <div className="fixed bottom-6 right-6 z-40">
-        <Button onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')} className="px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm font-light text-primary-foreground bg-red-100">
+        <Button onClick={() => window.open('https://wa.me/5551992188634?text=Oi%2C+Tami!+Gostaria+de+informações+sobre+psicoterapia+online+contigo.+Pode+me+auxiliar%3F', '_blank')} className="px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm font-light bg-primary text-primary-foreground hover:bg-primary/90">
           Agende sua consulta
           <span className="ml-2">📱</span>
         </Button>
