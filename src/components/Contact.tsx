@@ -1,16 +1,13 @@
 import { Button } from "@/components/ui/button";
 import contactBg from "@/assets/contact-background.png";
-
 const Contact = () => {
-  return <section 
-      id="contact" 
-      className="py-24 md:py-32 px-6 animate-slide-up bg-cover bg-center bg-no-repeat min-h-screen flex items-center"
-      style={{ backgroundImage: `url(${contactBg})` }}
-    >
+  return <section id="contact" className="py-24 md:py-32 px-6 animate-slide-up bg-cover bg-center bg-no-repeat min-h-screen flex items-center" style={{
+    backgroundImage: `url(${contactBg})`
+  }}>
       <div className="container mx-auto max-w-2xl">
         <div className="space-y-12 md:space-y-16 text-center">
           {/* Section Title */}
-          <h2 className="text-2xl font-playfair font-normal md:text-4xl text-foreground">
+          <h2 className="text-2xl font-playfair font-normal text-neutral-50 md:text-6xl my-0 py-0">
             Entre em contato
           </h2>
 
@@ -19,8 +16,8 @@ const Contact = () => {
             
             
             <div className="space-y-3 text-base md:text-lg">
-              <p className="text-muted-foreground font-light">📧 tamisberti@gmail.com.br</p>
-              <p className="text-muted-foreground font-light">📱 (51) 99218-8634</p>
+              <p className="font-light text-neutral-50 text-3xl">📧 tamisberti@gmail.com.br</p>
+              <p className="font-light text-neutral-50 text-3xl">📱 (51) 99218-8634</p>
             </div>
           </div>
 
@@ -32,10 +29,7 @@ const Contact = () => {
             <p className="text-muted-foreground font-light text-sm md:text-base max-w-xl mx-auto">
               O Centro de Valorização da Vida oferece apoio emocional e atua na prevenção do suicídio por meio de um atendimento voluntário e acolhedor. Para conversar, clique no botão abaixo.
             </p>
-            <Button 
-              onClick={() => window.open('https://projetopormim.com.br/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnIl_SQBHnSTxeqyRifXQSyJzJRYN1KIrs9omwhMZPr8D2FM8FC-KXT3XltoE_aem_07y0y-sk1DYx0EqPHziV3g#ajuda', '_blank')}
-              className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3 rounded-full font-light"
-            >
+            <Button onClick={() => window.open('https://projetopormim.com.br/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnIl_SQBHnSTxeqyRifXQSyJzJRYN1KIrs9omwhMZPr8D2FM8FC-KXT3XltoE_aem_07y0y-sk1DYx0EqPHziV3g#ajuda', '_blank')} className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3 rounded-full font-light">
               Chat CVV
             </Button>
           </div>
