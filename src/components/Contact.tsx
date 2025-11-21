@@ -1,6 +1,12 @@
 import { Button } from "@/components/ui/button";
+import contactBg from "@/assets/contact-background.png";
+
 const Contact = () => {
-  return <section id="contact" className="py-24 md:py-32 px-6 animate-slide-up">
+  return <section 
+      id="contact" 
+      className="py-24 md:py-32 px-6 animate-slide-up bg-cover bg-center bg-no-repeat min-h-screen flex items-center"
+      style={{ backgroundImage: `url(${contactBg})` }}
+    >
       <div className="container mx-auto max-w-2xl">
         <div className="space-y-12 md:space-y-16 text-center">
           {/* Section Title */}
