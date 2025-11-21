@@ -23,6 +23,22 @@ const Contact = () => {
               <p className="text-muted-foreground font-light">📱 (51) 99218-8634</p>
             </div>
           </div>
+
+          {/* CVV Section */}
+          <div className="mt-16 pt-12 border-t border-border/30 space-y-6">
+            <h3 className="text-xl md:text-2xl font-playfair font-normal text-foreground">
+              Precisa de atendimento urgente?
+            </h3>
+            <p className="text-muted-foreground font-light text-sm md:text-base max-w-xl mx-auto">
+              O Centro de Valorização da Vida oferece apoio emocional e atua na prevenção do suicídio por meio de um atendimento voluntário e acolhedor. Para conversar, clique no botão abaixo.
+            </p>
+            <Button 
+              onClick={() => window.open('https://projetopormim.com.br/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnIl_SQBHnSTxeqyRifXQSyJzJRYN1KIrs9omwhMZPr8D2FM8FC-KXT3XltoE_aem_07y0y-sk1DYx0EqPHziV3g#ajuda', '_blank')}
+              className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3 rounded-full font-light"
+            >
+              Chat CVV
+            </Button>
+          </div>
         </div>
       </div>
       
