@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -8,8 +7,7 @@ import PageTransition from "@/components/PageTransition";
 const Index = () => {
   return (
     <PageTransition>
-      <div className="min-h-screen">
-        <Header />
+      <div className="min-h-screen bg-background">
         <Hero />
         <About />
         <Contact />
