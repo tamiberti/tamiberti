@@ -90,6 +90,7 @@ export default {
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
 				'playfair': ['Playfair Display', 'serif'],
+				'moontime': ['Moontime', 'cursive'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
