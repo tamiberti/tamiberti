@@ -8,7 +8,7 @@ const About = () => {
       style={{ backgroundImage: `url(${aboutBg})` }}
     >
       <div className="absolute inset-0 bg-background/60"></div>
-      <div className="container mx-auto max-w-6xl relative z-10 pt-24 md:pt-32">
+      <div className="container mx-auto max-w-6xl relative z-10 pt-[50vh] md:pt-[55vh]">
         <div className="space-y-12 md:space-y-16">
           {/* Section Title */}
           <h2 className="text-3xl md:text-4xl font-playfair text-left font-normal lg:text-4xl text-[#806751]">
