@@ -1,15 +1,16 @@
-import aboutBg from "@/assets/about-background.jpg";
-
 const About = () => {
   return (
     <section 
       id="about" 
-      className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-cover bg-top bg-no-repeat relative"
-      style={{ backgroundImage: `url(${aboutBg})` }}
+      className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-background"
     >
-      <div className="absolute inset-0 bg-background/60"></div>
-      <div className="container mx-auto max-w-6xl relative z-10 pt-[50vh] md:pt-[55vh]">
+      <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 md:space-y-16">
+          {/* Greeting */}
+          <p className="font-moontime text-4xl md:text-5xl lg:text-6xl text-[#806751]">
+            Oi, que bom te ter por aqui!
+          </p>
+          
           {/* Section Title */}
           <h2 className="text-3xl md:text-4xl font-playfair text-left font-normal lg:text-4xl text-[#806751]">
             Sobre mim
