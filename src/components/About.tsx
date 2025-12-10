@@ -1,15 +1,9 @@
 const About = () => {
-  return (
-    <section 
-      id="about" 
-      className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-background"
-    >
+  return <section id="about" className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-background">
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 md:space-y-16">
           {/* Greeting */}
-          <p className="font-moontime text-4xl md:text-5xl lg:text-6xl text-[#806751]">
-            Oi, que bom te ter por aqui!
-          </p>
+          
           
           {/* Section Title */}
           <h2 className="text-3xl md:text-4xl font-playfair text-left font-normal lg:text-4xl text-[#806751]">
@@ -19,21 +13,19 @@ const About = () => {
           {/* Content - Left aligned text only */}
           <div className="max-w-2xl">
             <div className="space-y-6 text-base md:text-lg leading-relaxed text-left">
-              <p className="text-muted-foreground font-light text-justify">
-                Eu sou a Tami, psicóloga clínica e hospitalar.
-              </p>
+              <p className="text-muted-foreground font-light text-justify"> Oi, que bom te ter por aqui! 
+
+
+Eu sou a Tami, psicóloga clínica e hospitalar.</p>
               
-              <p className="text-muted-foreground font-light text-justify">
-                Ao longo dos anos, minha atuação tem se estendido por diferentes espaços de cuidado. Já estive ao lado de pessoas em hospitais, clínicas, empresas, em contextos de migração e em momentos de intensa vulnerabilidade, onde a presença, a escuta e o acolhimento fazem toda a diferença.
-              </p>
+              <p className="text-muted-foreground font-light text-justify">Ao longo dos anos, minha atuação tem se estendido por diferentes espaços de cuidado. Já estive ao lado de pessoas em hospitais e clínicas, em cenários de emergência e em contextos de migração. Momentos de intensa vulnerabilidade, onde a presença, a escuta e o acolhimento fazem toda a diferença.</p>
               
-              <p className="text-muted-foreground font-light text-justify">
-                Cada uma dessas vivências deixa marcas e contribui para formar a profissional que me torno todos os dias, alguém que busca sustentar sua prática em ética, sensibilidade e compromisso com o cuidado.
-              </p>
+              <p className="text-muted-foreground font-light text-justify">Cada uma dessas vivências deixa marcas e contribui para formar a profissional que me torno todos os dias, alguém que busca sustentar sua prática na ética, sensibilidade e compromisso com o cuidado.</p>
               
-              <p className="text-muted-foreground font-light text-justify">
-                Entendo que nenhuma técnica e nenhum conhecimento têm valor real se não estiverem acompanhados de empatia, presença e uma escuta verdadeira. E é essa a psicologia que escolho exercer, sensível e humana.
-              </p>
+              <p className="text-muted-foreground font-light text-justify">Entendo que nenhuma técnica e nenhum conhecimento têm valor real se não estiverem acompanhados de empatia, presença e uma escuta verdadeira. E é essa a psicologia que escolho exercer, sensível e humana.
+
+
+Se quiser saber mais ou tiver alguma dúvida, fique à vontade para me procurar. Conta comigo!</p>
             </div>
           </div>
 
@@ -79,8 +71,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
