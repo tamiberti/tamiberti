@@ -23,6 +23,9 @@ const Header = () => {
             <button onClick={() => scrollToSection('about')} className="text-foreground hover:text-foreground/70 transition-colors font-light">
               Sobre mim
             </button>
+            <button onClick={() => scrollToSection('psicoterapia')} className="text-foreground hover:text-foreground/70 transition-colors font-light">
+              Psicoterapia
+            </button>
             <button onClick={() => scrollToSection('contact')} className="text-foreground hover:text-foreground/70 transition-colors font-light">
               Contato
             </button>
