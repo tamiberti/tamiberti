@@ -1,17 +1,11 @@
 import tamiProfile from "@/assets/tami-profile.jpg";
-
 const About = () => {
-  return (
-    <section id="about" className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-background">
+  return <section id="about" className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-background">
       <div className="container mx-auto max-w-6xl">
       <div className="space-y-12 md:space-y-16">
           {/* Profile Photo and Title */}
           <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
-            <img 
-              src={tamiProfile} 
-              alt="Tami Berti - Psicóloga" 
-              className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-2xl flex-shrink-0"
-            />
+            <img alt="Tami Berti - Psicóloga" className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-2xl flex-shrink-0" src="/lovable-uploads/807a122b-80c3-4150-b09a-3788976d0b30.jpg" />
             <div className="flex flex-col">
               <h2 className="text-3xl md:text-4xl font-playfair font-normal lg:text-4xl text-[#806751] mb-6">
                 Sobre mim
@@ -88,8 +82,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
