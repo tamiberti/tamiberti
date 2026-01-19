@@ -12,41 +12,37 @@ const About = () => {
               alt="Tami Berti - Psicóloga" 
               className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-2xl flex-shrink-0"
             />
-            <div className="flex flex-col justify-center">
-              <h2 className="text-3xl md:text-4xl font-playfair font-normal lg:text-4xl text-[#806751]">
+            <div className="flex flex-col">
+              <h2 className="text-3xl md:text-4xl font-playfair font-normal lg:text-4xl text-[#806751] mb-6">
                 Sobre mim
               </h2>
-            </div>
-          </div>
-
-          {/* Content - Left aligned text only */}
-          <div className="max-w-2xl">
-            <div className="space-y-6 text-base md:text-lg leading-relaxed text-left">
-              <p className="text-muted-foreground font-light text-justify">
-                Oi, que bom te ter por aqui!
-              </p>
-              <p className="text-muted-foreground font-light text-justify">
-                Eu sou a Tami, psicóloga clínica e hospitalar.
-              </p>
-              
-              <p className="text-muted-foreground font-light text-justify">
-                Ao longo dos anos, minha atuação tem se estendido por diferentes espaços de cuidado. Já estive ao lado de pessoas em hospitais e clínicas, em cenários de emergência e em contextos de migração. Momentos de intensa vulnerabilidade, onde a presença, a escuta e o acolhimento fazem toda a diferença.
-              </p>
-              
-              <p className="text-muted-foreground font-light text-justify">
-                Cada uma dessas vivências deixa marcas e contribui para formar a profissional que me torno todos os dias, alguém que busca sustentar sua prática na ética, sensibilidade e compromisso com o cuidado.
-              </p>
-              
-              <p className="text-muted-foreground font-light text-justify">
-                A psicoterapia é um convite para dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Com base nos fundamentos teóricos que sustentam a minha atuação, busco compreender as necessidades de cada pessoa de forma única, respeitando sua história, seu ritmo e seus processos.
-              </p>
-              
-              <p className="text-muted-foreground font-light text-justify">
-                Entendo que nenhuma técnica e nenhum conhecimento têm valor real se não estiverem acompanhados de empatia, presença e uma escuta verdadeira. E é essa a psicologia que escolho exercer, sensível e humana.
-              </p>
-              <p className="text-muted-foreground font-light text-justify">
-                Se quiser saber mais ou tiver alguma dúvida, fique à vontade para me procurar. Conta comigo!
-              </p>
+              <div className="space-y-6 text-base md:text-lg leading-relaxed text-left">
+                <p className="text-muted-foreground font-light text-justify">
+                  Oi, que bom te ter por aqui!
+                </p>
+                <p className="text-muted-foreground font-light text-justify">
+                  Eu sou a Tami, psicóloga clínica e hospitalar.
+                </p>
+                
+                <p className="text-muted-foreground font-light text-justify">
+                  Ao longo dos anos, minha atuação tem se estendido por diferentes espaços de cuidado. Já estive ao lado de pessoas em hospitais e clínicas, em cenários de emergência e em contextos de migração. Momentos de intensa vulnerabilidade, onde a presença, a escuta e o acolhimento fazem toda a diferença.
+                </p>
+                
+                <p className="text-muted-foreground font-light text-justify">
+                  Cada uma dessas vivências deixa marcas e contribui para formar a profissional que me torno todos os dias, alguém que busca sustentar sua prática na ética, sensibilidade e compromisso com o cuidado.
+                </p>
+                
+                <p className="text-muted-foreground font-light text-justify">
+                  A psicoterapia é um convite para dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Com base nos fundamentos teóricos que sustentam a minha atuação, busco compreender as necessidades de cada pessoa de forma única, respeitando sua história, seu ritmo e seus processos.
+                </p>
+                
+                <p className="text-muted-foreground font-light text-justify">
+                  Entendo que nenhuma técnica e nenhum conhecimento têm valor real se não estiverem acompanhados de empatia, presença e uma escuta verdadeira. E é essa a psicologia que escolho exercer, sensível e humana.
+                </p>
+                <p className="text-muted-foreground font-light text-justify">
+                  Se quiser saber mais ou tiver alguma dúvida, fique à vontade para me procurar. Conta comigo!
+                </p>
+              </div>
             </div>
           </div>
 
