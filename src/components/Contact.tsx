@@ -28,7 +28,9 @@ const Contact = () => {
             
             <div className="space-y-3 text-base md:text-lg">
               <p className="font-light text-neutral-50 text-3xl">📧 tamisberti@gmail.com.br</p>
-              <p className="font-light text-neutral-50 text-3xl">📱 (51) 99218-8634</p>
+              <p className="font-light text-neutral-50 text-3xl flex items-center justify-center gap-2">
+                <WhatsAppIcon className="w-8 h-8" /> (51) 99218-8634
+              </p>
             </div>
           </div>
 
