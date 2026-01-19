@@ -4,20 +4,20 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-background">
       <div className="container mx-auto max-w-6xl">
-        <div className="space-y-12 md:space-y-16">
-          {/* Profile Photo */}
-          <div className="flex justify-center">
+      <div className="space-y-12 md:space-y-16">
+          {/* Profile Photo and Title */}
+          <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
             <img 
               src={tamiProfile} 
               alt="Tami Berti - Psicóloga" 
-              className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full"
+              className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full flex-shrink-0"
             />
+            <div className="flex flex-col justify-center">
+              <h2 className="text-3xl md:text-4xl font-playfair font-normal lg:text-4xl text-[#806751]">
+                Sobre mim
+              </h2>
+            </div>
           </div>
-          
-          {/* Section Title */}
-          <h2 className="text-3xl md:text-4xl font-playfair text-left font-normal lg:text-4xl text-[#806751]">
-            Sobre mim
-          </h2>
 
           {/* Content - Left aligned text only */}
           <div className="max-w-2xl">
@@ -35,6 +35,10 @@ const About = () => {
               
               <p className="text-muted-foreground font-light text-justify">
                 Cada uma dessas vivências deixa marcas e contribui para formar a profissional que me torno todos os dias, alguém que busca sustentar sua prática na ética, sensibilidade e compromisso com o cuidado.
+              </p>
+              
+              <p className="text-muted-foreground font-light text-justify">
+                A psicoterapia é um convite para dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Com base nos fundamentos teóricos que sustentam a minha atuação, busco compreender as necessidades de cada pessoa de forma única, respeitando sua história, seu ritmo e seus processos.
               </p>
               
               <p className="text-muted-foreground font-light text-justify">
