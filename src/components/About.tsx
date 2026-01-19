@@ -10,7 +10,7 @@ const About = () => {
             <img 
               src={tamiProfile} 
               alt="Tami Berti - Psicóloga" 
-              className="w-48 h-64 md:w-56 md:h-72 object-cover rounded-2xl flex-shrink-0"
+              className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-2xl flex-shrink-0"
             />
             <div className="flex flex-col justify-center">
               <h2 className="text-3xl md:text-4xl font-playfair font-normal lg:text-4xl text-[#806751]">
