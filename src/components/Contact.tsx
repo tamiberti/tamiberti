@@ -11,6 +11,16 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
+const EmailIcon = ({ className }: { className?: string }) => (
+  <svg 
+    viewBox="0 0 24 24" 
+    fill="currentColor" 
+    className={className}
+  >
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+  </svg>
+);
+
 const Contact = () => {
   return <section id="contact" className="py-24 md:py-32 px-6 animate-slide-up bg-cover bg-center bg-no-repeat min-h-screen flex items-center" style={{
     backgroundImage: `url(${contactBg})`
@@ -27,7 +37,9 @@ const Contact = () => {
             
             
             <div className="space-y-3 text-base md:text-lg">
-              <p className="font-light text-neutral-50 text-3xl">📧 tamisberti@gmail.com.br</p>
+              <p className="font-light text-neutral-50 text-3xl flex items-center justify-center gap-2">
+                <EmailIcon className="w-8 h-8" /> tamisberti@gmail.com.br
+              </p>
               <p className="font-light text-neutral-50 text-3xl flex items-center justify-center gap-2">
                 <WhatsAppIcon className="w-8 h-8" /> (51) 99218-8634
               </p>
