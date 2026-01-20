@@ -1,30 +1,21 @@
 import tamiProfile from "@/assets/tami-profile.jpg";
-
 const About = () => {
-  return (
-    <section id="about" className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-background">
+  return <section id="about" className="min-h-screen py-24 md:py-32 px-6 animate-page-enter bg-background">
       <div className="container mx-auto max-w-5xl">
         <div className="space-y-16 md:space-y-20">
           {/* Profile Photo and Title - Side by side, photo matching text height */}
           <div className="flex flex-col md:flex-row items-stretch gap-10 md:gap-12">
             <div className="md:w-1/3 flex-shrink-0">
-              <img 
-                alt="Tami Berti - Psicóloga" 
-                className="w-full h-full object-cover rounded-lg" 
-                src="/lovable-uploads/807a122b-80c3-4150-b09a-3788976d0b30.jpg" 
-              />
+              <img alt="Tami Berti - Psicóloga" className="w-full h-full object-cover rounded-lg" src="/lovable-uploads/807a122b-80c3-4150-b09a-3788976d0b30.jpg" />
             </div>
             <div className="flex flex-col flex-1">
               <h2 className="text-3xl md:text-4xl font-playfair font-normal text-[#806751] mb-8">
                 Sobre mim
               </h2>
               <div className="space-y-5 text-base md:text-lg leading-relaxed">
-                <p className="text-muted-foreground font-light text-justify">
-                  Oi, que bom te ter por aqui!
-                </p>
-                <p className="text-muted-foreground font-light text-justify">
-                  Eu sou a Tami, psicóloga clínica e hospitalar.
-                </p>
+                <p className="text-muted-foreground font-light text-justify">Oi, que bom te ter por aqui!
+Eu sou a Tami, psicóloga clínica e hospitalar.</p>
+                
                 
                 <p className="text-muted-foreground font-light text-justify">
                   Ao longo dos anos, minha atuação tem se estendido por diferentes espaços de cuidado. Já estive ao lado de pessoas em hospitais e clínicas, em cenários de emergência e em contextos de migração. Momentos de intensa vulnerabilidade, onde a presença, a escuta e o acolhimento fazem toda a diferença.
@@ -34,9 +25,7 @@ const About = () => {
                   Cada uma dessas vivências deixa marcas e contribui para formar a profissional que me torno todos os dias, alguém que busca sustentar sua prática na ética, sensibilidade e compromisso com o cuidado.
                 </p>
                 
-                <p className="text-muted-foreground font-light text-justify">
-                  A psicoterapia é um convite para dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Com base nos fundamentos teóricos que sustentam a minha atuação, busco compreender as necessidades de cada pessoa de forma única, respeitando sua história, seu ritmo e seus processos.
-                </p>
+                <p className="text-muted-foreground font-light text-justify">A psicoterapia é um convite para dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Com base nos fundamentos teóricos que sustentam a minha atuação, a Terapia Sistêmica, busco compreender as necessidades de cada pessoa de forma única, respeitando sua história, seu ritmo e seus processos.</p>
                 
                 <p className="text-muted-foreground font-light text-justify">
                   Entendo que nenhuma técnica e nenhum conhecimento têm valor real se não estiverem acompanhados de empatia, presença e uma escuta verdadeira. E é essa a psicologia que escolho exercer, sensível e humana.
@@ -88,8 +77,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
