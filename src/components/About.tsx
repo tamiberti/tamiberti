@@ -13,25 +13,16 @@ const About = () => {
                 Sobre mim
               </h2>
               <div className="space-y-5 text-base md:text-lg leading-relaxed">
-                <p className="text-muted-foreground font-light text-justify">Oi, que bom te ter por aqui!
-Eu sou a Tami, psicóloga clínica e hospitalar.</p>
-                
-                
-                <p className="text-muted-foreground font-light text-justify">
-                  Ao longo dos anos, minha atuação tem se estendido por diferentes espaços de cuidado. Já estive ao lado de pessoas em hospitais e clínicas, em cenários de emergência e em contextos de migração. Momentos de intensa vulnerabilidade, onde a presença, a escuta e o acolhimento fazem toda a diferença.
+              <p className="text-muted-foreground font-light text-justify">
+                  Oi, que bom te receber por aqui. Eu sou a Tami, psicóloga clínica e hospitalar, e meu trabalho é oferecer um espaço seguro, acolhedor e ético para quem sente que precisa de apoio emocional neste momento da vida.
                 </p>
                 
                 <p className="text-muted-foreground font-light text-justify">
-                  Cada uma dessas vivências deixa marcas e contribui para formar a profissional que me torno todos os dias, alguém que busca sustentar sua prática na ética, sensibilidade e compromisso com o cuidado.
+                  Minha trajetória passa por diferentes contextos de cuidado, como hospitais, clínicas, situações de emergência e processos de migração. Estar ao lado de pessoas em momentos de fragilidade me ensinou que, mais do que respostas prontas, o que realmente transforma é ser escutado com atenção, respeito e sensibilidade.
                 </p>
                 
-                <p className="text-muted-foreground font-light text-justify">A psicoterapia é um convite para dar voz ao que sentimos, revisitar histórias e criar possibilidades de mudança. Com base nos fundamentos teóricos que sustentam a minha atuação, a Terapia Sistêmica, busco compreender as necessidades de cada pessoa de forma única, respeitando sua história, seu ritmo e seus processos.</p>
-                
                 <p className="text-muted-foreground font-light text-justify">
-                  Entendo que nenhuma técnica e nenhum conhecimento têm valor real se não estiverem acompanhados de empatia, presença e uma escuta verdadeira. E é essa a psicologia que escolho exercer, sensível e humana.
-                </p>
-                <p className="text-muted-foreground font-light text-justify">
-                  Se quiser saber mais ou tiver alguma dúvida, fique à vontade para me procurar. Conta comigo!
+                  A psicoterapia que ofereço é baseada na Terapia Sistêmica e construída de forma singular para cada pessoa, respeitando sua história, seus vínculos e seu tempo. Acredito em um cuidado humano, empático e comprometido, onde você possa falar com liberdade, elaborar suas experiências e criar novos caminhos com mais clareza e autonomia. Se fizer sentido para você, será um prazer caminhar junto.
                 </p>
               </div>
             </div>
