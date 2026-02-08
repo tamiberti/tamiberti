@@ -35,28 +35,37 @@ const About = () => {
             </h2>
             
             <div className="space-y-8 max-w-3xl">
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <h3 className="text-xl md:text-2xl font-playfair font-normal text-[#7a634f]">
                   Formação Acadêmica
                 </h3>
-                <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  <span className="font-semibold text-foreground">Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)</span>
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  Graduação em Psicologia
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  Esp. em Psicologia da Saúde (Urgência e Emergência)
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  Intercâmbio acadêmico na <span className="font-semibold text-foreground">Universitat de Lleida / ESPANHA</span>
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  <span className="font-semibold text-foreground">Centro de Estudos da Família e do Indivíduo (CEFI)</span>
-                </p>
-                <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  Esp. em Terapia Sistêmica
-                </p>
+                
+                <div className="space-y-1">
+                  <p className="text-base md:text-lg leading-relaxed text-foreground font-semibold">
+                    Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+                  </p>
+                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
+                    Graduação em Psicologia
+                  </p>
+                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
+                    Esp. em Psicologia da Saúde (Urgência e Emergência)
+                  </p>
+                </div>
+
+                <div className="space-y-1">
+                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
+                    Intercâmbio acadêmico na <span className="font-semibold text-foreground">Universitat de Lleida / ESPANHA</span>
+                  </p>
+                </div>
+
+                <div className="space-y-1">
+                  <p className="text-base md:text-lg leading-relaxed text-foreground font-semibold">
+                    Centro de Estudos da Família e do Indivíduo (CEFI)
+                  </p>
+                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
+                    Esp. em Terapia Sistêmica
+                  </p>
+                </div>
               </div>
 
               <div className="space-y-4">
