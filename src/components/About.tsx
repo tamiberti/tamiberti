@@ -13,17 +13,13 @@ const About = () => {
                 Sobre mim
               </h2>
               <div className="space-y-5 text-base md:text-lg leading-relaxed">
-              <p className="text-muted-foreground font-light text-justify">
-                  Oi, que bom te receber por aqui. Eu sou a Tami, psicóloga clínica e hospitalar, e meu trabalho é oferecer um espaço seguro, acolhedor e ético para quem sente que precisa de apoio emocional neste momento da vida.
-                </p>
+              <p className="text-muted-foreground font-light text-justify">Oi, que bom te receber por aqui! Eu sou a Tami, psicóloga clínica e hospitalar, e meu trabalho é oferecer um espaço seguro, acolhedor e ético para quem sente que precisa de apoio emocional.</p>
                 
                 <p className="text-muted-foreground font-light text-justify">
                   Minha trajetória passa por diferentes contextos de cuidado, como hospitais, clínicas, situações de emergência e processos de migração. Estar ao lado de pessoas em momentos de fragilidade me ensinou que, mais do que respostas prontas, o que realmente transforma é ser escutado com atenção, respeito e sensibilidade.
                 </p>
                 
-                <p className="text-muted-foreground font-light text-justify">
-                  A psicoterapia que ofereço é baseada na Terapia Sistêmica e construída de forma singular para cada pessoa, respeitando sua história, seus vínculos e seu tempo. Acredito em um cuidado humano, empático e comprometido, onde você possa falar com liberdade, elaborar suas experiências e criar novos caminhos com mais clareza e autonomia. Se fizer sentido para você, será um prazer caminhar junto.
-                </p>
+                <p className="text-muted-foreground font-light text-justify">A psicoterapia que ofereço é baseada na Terapia Sistêmica e construída de forma singular para cada pessoa, respeitando sua história, seus vínculos e seu tempo. Acredito em um cuidado humano, empático e comprometido, onde você possa falar com liberdade, elaborar suas experiências e criar novos caminhos com mais clareza e autonomia. Se fizer sentido para você, será um prazer caminhar junto!</p>
               </div>
             </div>
           </div>
@@ -53,8 +49,8 @@ const About = () => {
                 </div>
 
                 <div className="space-y-1">
-                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
-                    Intercâmbio acadêmico na <span className="font-semibold text-foreground">Universitat de Lleida / ESPANHA</span>
+                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">Universitat de Lleida / ESPANHA
+Intercâmbio acadêmico na<span className="font-semibold text-foreground">Universitat de Lleida / ESPANHA</span>
                   </p>
                 </div>
 
