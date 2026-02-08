@@ -49,8 +49,7 @@ const About = () => {
                 </div>
 
                 <div className="space-y-1">
-                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">Universitat de Lleida / ESPANHA
-Intercâmbio acadêmico na<span className="font-semibold text-foreground">Universitat de Lleida / ESPANHA</span>
+                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">Intercâmbio acadêmico na <span className="font-semibold text-foreground">Universidade de Lleida / ESPANHA</span>
                   </p>
                 </div>
 
