@@ -40,16 +40,22 @@ const About = () => {
                   Formação Acadêmica
                 </h3>
                 <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  Graduação em Psicologia - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+                  <span className="font-semibold text-foreground">Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)</span>
                 </p>
                 <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  Mobilidade acadêmica Santander Universidades - Universitat de Lleida / Espanha
+                  Graduação em Psicologia
                 </p>
                 <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  Esp. em Psicologia da Saúde (Urgência e Emergência) - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+                  Esp. em Psicologia da Saúde (Urgência e Emergência)
                 </p>
                 <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
-                  Esp. em Terapia Sistêmica - Centro de Estudos da Família e do Indivíduo (CEFI)
+                  Intercâmbio acadêmico na <span className="font-semibold text-foreground">Universitat de Lleida / ESPANHA</span>
+                </p>
+                <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
+                  <span className="font-semibold text-foreground">Centro de Estudos da Família e do Indivíduo (CEFI)</span>
+                </p>
+                <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light text-justify">
+                  Esp. em Terapia Sistêmica
                 </p>
               </div>
 
