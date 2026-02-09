@@ -5,7 +5,7 @@ const faqItems = [
   {
     question: "Quando devo buscar a psicoterapia?",
     answer:
-      "A psicoterapia pode ser buscada em diferentes momentos da vida: quando você sente que precisa de apoio emocional, está passando por um momento difícil, enfrenta mudanças importantes ou simplesmente deseja se conhecer melhor. Não é preciso estar em crise para começar — o cuidado com a saúde mental pode ser preventivo e transformador.",
+      "A psicoterapia pode ser buscada em diferentes momentos da vida: quando você sente que precisa de apoio emocional, está passando por um momento difícil, enfrenta mudanças importantes ou simplesmente deseja se conhecer melhor. Não é preciso estar em crise para começar, o cuidado com a saúde mental pode ser preventivo e transformador.",
   },
   {
     question: "Quanto tempo dura cada sessão e com que frequência elas acontecem?",
@@ -15,7 +15,7 @@ const faqItems = [
   {
     question: "Como funcionam as sessões online?",
     answer:
-      "As sessões online acontecem através de plataforma de videochamada. É essencial que o paciente esteja em um local tranquilo, onde possa falar livremente, sem interrupções. Para garantir o melhor aproveitamento da sessão, é importante que o ambiente tenha boa iluminação e uma conexão de internet estável. Garanto um espaço seguro e privado, com a mesma eficácia das sessões presenciais.",
+      "As sessões online acontecem através de plataforma de videochamada. É essencial que o paciente esteja em um local tranquilo, onde possa falar livremente, sem interrupções. Para garantir o melhor aproveitamento da sessão, é importante que o ambiente tenha boa iluminação e uma conexão de internet estável.",
   },
   {
     question: "Qual o valor da sessão?",
