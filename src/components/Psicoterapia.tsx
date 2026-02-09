@@ -33,7 +33,7 @@ const Psicoterapia = () => {
 
   return (
     <section
-      id="psicoterapia"
+      id="duvidas"
       className="py-24 md:py-32 px-6 animate-page-enter bg-primary/30"
     >
       <div className="container mx-auto max-w-6xl">
