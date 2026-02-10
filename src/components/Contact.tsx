@@ -61,9 +61,9 @@ const Contact = () => {
       
       {/* Fixed CTA Button - Alice Abadi style */}
       <div className="fixed bottom-6 right-6 z-40">
-        <Button onClick={() => window.open('https://wa.me/5551992188634', '_blank')} className="px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm font-light text-primary-foreground bg-[#d1bfb3]">
+        <Button onClick={() => window.open('https://wa.me/5551992188634', '_blank')} className="px-8 py-4 h-auto text-base rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 font-medium text-white bg-[#25D366] hover:bg-[#1ebe57]">
           Entre em contato
-          <WhatsAppIcon className="ml-2 w-4 h-4" />
+          <WhatsAppIcon className="ml-2 w-5 h-5" />
         </Button>
       </div>
     </section>;
