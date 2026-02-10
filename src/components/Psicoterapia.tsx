@@ -40,7 +40,7 @@ const Psicoterapia = () => {
         <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16">
           {/* Left side - Title */}
           <div className="md:w-1/3 flex-shrink-0">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-normal text-background leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-normal text-[#806751] leading-tight">
               Dúvidas
               <br />
               Frequentes

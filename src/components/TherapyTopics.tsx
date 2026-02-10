@@ -39,7 +39,7 @@ const TherapyTopics = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-playfair font-normal text-foreground">
-            Mesmo situações aparentemente pequenas merecem{" "}
+            Mesmo as situações que parecem pequenas merecem{" "}
             <span className="underline decoration-primary underline-offset-4">
               atenção e cuidado.
             </span>
