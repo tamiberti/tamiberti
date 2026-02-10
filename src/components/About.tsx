@@ -53,7 +53,7 @@ const About = () => {
                     Universidade de Lleida / ESPANHA
                   </p>
                   <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
-                    Intercâmbio acadêmico
+                    <span className="mr-2">•</span>Intercâmbio acadêmico
                   </p>
                 </div>
 
