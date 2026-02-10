@@ -41,16 +41,19 @@ const About = () => {
                     Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
                   </p>
                   <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
-                    Graduação em Psicologia
+                    <span className="mr-2">•</span>Graduação em Psicologia
                   </p>
                   <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
-                    Esp. em Psicologia da Saúde (Urgência e Emergência)
+                    <span className="mr-2">•</span>Esp. em Psicologia da Saúde (Urgência e Emergência)
                   </p>
                 </div>
 
                 <div className="space-y-1">
-                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">Universidade de Lleida / ESPANHA
-ntercâmbio acadêmico<span className="font-semibold text-foreground">Universidade de Lleida / ESPANHA</span>
+                  <p className="text-base md:text-lg leading-relaxed text-foreground font-semibold">
+                    Universidade de Lleida / ESPANHA
+                  </p>
+                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
+                    Intercâmbio acadêmico
                   </p>
                 </div>
 
@@ -59,7 +62,7 @@ ntercâmbio acadêmico<span className="font-semibold text-foreground">Universida
                     Centro de Estudos da Família e do Indivíduo (CEFI)
                   </p>
                   <p className="text-base md:text-lg leading-relaxed text-muted-foreground font-light">
-                    Esp. em Terapia Sistêmica
+                    <span className="mr-2">•</span>Esp. em Terapia Sistêmica
                   </p>
                 </div>
               </div>
