@@ -28,17 +28,17 @@ const Contact = () => {
       <div className="container mx-auto max-w-2xl">
         <div className="space-y-12 md:space-y-16 text-center">
           {/* Section Title */}
-          <h2 className="text-3xl md:text-4xl font-playfair font-normal text-neutral-50 my-0 py-0">
+          <h2 className="text-3xl md:text-4xl font-playfair font-normal text-foreground my-0 py-0">
             Entre em contato
           </h2>
 
           {/* Simple Contact Info */}
           <div className="space-y-6 md:space-y-8">
             <div className="space-y-4">
-              <p className="font-light text-neutral-50 text-base md:text-lg flex items-center justify-center gap-3">
+              <p className="font-light text-foreground text-base md:text-lg flex items-center justify-center gap-3">
                 <EmailIcon className="w-5 h-5" /> tamisberti@gmail.com.br
               </p>
-              <p className="font-light text-neutral-50 text-base md:text-lg flex items-center justify-center gap-3">
+              <p className="font-light text-foreground text-base md:text-lg flex items-center justify-center gap-3">
                 <WhatsAppIcon className="w-5 h-5" /> (51) 99218-8634
               </p>
             </div>
