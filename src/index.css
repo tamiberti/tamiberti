@@ -8,40 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Palette Colors - Watercolor rosé/peach from cover */
-    --background: 20 30% 95%;
-    --foreground: 15 35% 30%;
+    /* Palette Colors - Warm rosé/peach watercolor from cover */
+    --background: 25 33% 95%;
+    --foreground: 18 40% 28%;
     
-    --card: 20 30% 95%;
-    --card-foreground: 15 35% 30%;
+    --card: 25 33% 95%;
+    --card-foreground: 18 40% 28%;
     
-    --popover: 20 30% 95%;
-    --popover-foreground: 15 35% 30%;
+    --popover: 25 33% 95%;
+    --popover-foreground: 18 40% 28%;
     
-    --primary: 15 40% 72%;
-    --primary-foreground: 15 35% 25%;
+    --primary: 18 45% 68%;
+    --primary-foreground: 20 42% 22%;
     
-    --secondary: 20 30% 82%;
-    --secondary-foreground: 15 35% 28%;
+    --secondary: 22 35% 85%;
+    --secondary-foreground: 18 40% 26%;
     
-    --muted: 18 25% 60%;
-    --muted-foreground: 15 25% 48%;
+    --muted: 20 28% 65%;
+    --muted-foreground: 18 30% 45%;
     
-    --accent: 15 40% 72%;
-    --accent-foreground: 15 35% 25%;
+    --accent: 14 50% 74%;
+    --accent-foreground: 18 40% 22%;
     
     --destructive: 0 60% 50%;
-    --destructive-foreground: 20 30% 95%;
+    --destructive-foreground: 25 33% 95%;
     
-    --border: 18 28% 84%;
-    --input: 18 28% 84%;
-    --ring: 15 40% 72%;
+    --border: 20 30% 82%;
+    --input: 20 30% 82%;
+    --ring: 18 45% 68%;
     
     --radius: 0.5rem;
     
     /* Soft Shadows */
-    --shadow-soft: 0 2px 12px -6px hsl(15 35% 30% / 0.08);
-    --shadow-medium: 0 4px 20px -10px hsl(15 35% 30% / 0.12);
+    --shadow-soft: 0 2px 12px -6px hsl(18 40% 28% / 0.08);
+    --shadow-medium: 0 4px 20px -10px hsl(18 40% 28% / 0.15);
 
     --sidebar-background: 0 0% 98%;
 
