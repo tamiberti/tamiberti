@@ -1,10 +1,10 @@
 const benefits = [
-  "Fortalecimento da autoestima",
-  "Olhar mais gentil sobre si",
-  "Relacionamentos mais saudáveis",
-  "Mais leveza no dia a dia",
-  "Autonomia emocional",
+  "Desenvolvimento de recursos de enfrentamento",
   "Compreensão dos próprios padrões",
+  "Maior clareza emocional",
+  "Fortalecimento da autoestima e autonomia",
+  "Regulação emocional mais saudável",
+  "Melhora nos relacionamentos",
 ];
 
 const TherapyBenefits = () => {
