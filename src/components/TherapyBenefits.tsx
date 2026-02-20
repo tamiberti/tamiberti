@@ -24,7 +24,7 @@ const TherapyBenefits = () => {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="bg-background/90 backdrop-blur-sm rounded-2xl p-10 text-center border-2 border-primary/30 shadow-medium hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
+              className="bg-background/90 backdrop-blur-sm rounded-2xl p-6 md:p-10 text-center border-2 border-primary/30 shadow-medium hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
             >
               <h3 className="text-lg md:text-xl font-playfair font-semibold text-foreground tracking-wide">
                 {benefit}
