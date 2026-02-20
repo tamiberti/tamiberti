@@ -76,7 +76,7 @@ const Psicoterapia = () => {
                       : "max-h-0 opacity-0"
                   }`}
                 >
-                  <p className="px-6 py-4 text-base md:text-lg leading-relaxed text-foreground/90 font-light">
+                  <p className="px-6 py-4 text-base md:text-lg leading-relaxed text-foreground/90 font-light text-justify">
                     {item.answer}
                   </p>
                 </div>
