@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-center h-12">
           {/* Simple centered navigation - Alice Abadi style */}
-          <nav className="flex space-x-8 md:space-x-12 text-sm md:text-base">
+          <nav className="flex space-x-4 md:space-x-12 text-xs md:text-base overflow-x-auto">
             <button onClick={() => window.scrollTo({
             top: 0,
             behavior: 'smooth'
