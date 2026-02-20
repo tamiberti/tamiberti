@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-center h-12">
           {/* Simple centered navigation - Alice Abadi style */}
-          <nav className="flex space-x-4 md:space-x-12 text-xs md:text-base overflow-x-auto">
+          <nav className="flex space-x-3 md:space-x-12 text-[11px] md:text-base overflow-x-auto whitespace-nowrap">
             <button onClick={() => window.scrollTo({
             top: 0,
             behavior: 'smooth'
@@ -21,13 +21,13 @@ const Header = () => {
               Início
             </button>
             <button onClick={() => scrollToSection('about')} className="text-foreground hover:text-foreground/70 transition-colors font-light">
-              Sobre mim
+              Sobre
             </button>
             <button onClick={() => scrollToSection('psicoterapia')} className="text-foreground hover:text-foreground/70 transition-colors font-light">
               Psicoterapia
             </button>
             <button onClick={() => scrollToSection('duvidas')} className="text-foreground hover:text-foreground/70 transition-colors font-light">
-              Dúvidas Frequentes
+              Dúvidas
             </button>
             <button onClick={() => scrollToSection('contact')} className="text-foreground hover:text-foreground/70 transition-colors font-light">
               Contato
