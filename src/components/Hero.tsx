@@ -6,7 +6,7 @@ const Hero = () => {
       <img 
         src={heroImage} 
         alt="Tami Berti - Psicóloga Clínica" 
-        className="w-full h-auto sm:h-full sm:w-full object-contain sm:object-cover"
+        className="w-full h-auto sm:h-full sm:w-full object-contain sm:object-contain"
       />
     </section>
   );
