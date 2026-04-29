@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import contactBg from "@/assets/contact-background.png";
+import { BlobPeach, BlobMustard } from "./WatercolorShapes";
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
   <svg 
@@ -22,15 +22,20 @@ const EmailIcon = ({ className }: { className?: string }) => (
 );
 
 const Contact = () => {
-  return <section id="contact" className="py-24 md:py-32 px-6 animate-slide-up bg-cover bg-center bg-no-repeat min-h-screen flex items-center" style={{
-    backgroundImage: `url(${contactBg})`
-  }}>
-      <div className="container mx-auto max-w-2xl">
+  return <section id="contact" className="relative py-24 md:py-32 px-6 animate-slide-up bg-primary/40 min-h-screen flex items-center overflow-hidden">
+      <BlobPeach className="absolute -top-20 -right-20 w-[40%] max-w-[500px] opacity-60" />
+      <BlobMustard className="absolute -bottom-20 -left-20 w-[40%] max-w-[500px] opacity-50" />
+      <div className="container mx-auto max-w-2xl relative z-10">
         <div className="space-y-12 md:space-y-16 text-center">
           {/* Section Title */}
-          <h2 className="text-3xl md:text-4xl font-playfair font-normal text-foreground my-0 py-0">
-            Entre em contato
-          </h2>
+          <div className="space-y-3">
+            <p className="font-light text-xs md:text-sm tracking-[0.3em] uppercase text-accent">
+              Vamos conversar
+            </p>
+            <h2 className="text-3xl md:text-5xl font-playfair font-normal text-foreground">
+              Entre em <span className="italic">contato</span>
+            </h2>
+          </div>
 
           {/* Simple Contact Info */}
           <div className="space-y-6 md:space-y-8">
