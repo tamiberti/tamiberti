@@ -34,16 +34,19 @@ const Psicoterapia = () => {
   return (
     <section
       id="duvidas"
-      className="py-24 md:py-32 px-6 animate-page-enter bg-primary/30"
+      className="py-24 md:py-32 px-6 animate-page-enter bg-secondary"
     >
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16">
           {/* Left side - Title */}
           <div className="md:w-1/3 flex-shrink-0">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-normal text-[#806751] leading-tight">
+            <p className="font-light text-xs md:text-sm tracking-[0.3em] uppercase text-accent mb-3">
+              Tire suas dúvidas
+            </p>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-normal text-foreground leading-tight">
               Dúvidas
               <br />
-              Frequentes
+              <span className="italic">Frequentes</span>
             </h2>
           </div>
 
@@ -54,12 +57,12 @@ const Psicoterapia = () => {
                 {/* Trigger */}
                 <button
                   onClick={() => toggle(index)}
-                  className="w-full flex items-center justify-between bg-background/60 backdrop-blur-sm rounded-full px-6 py-4 text-left transition-all hover:bg-background/80"
+                  className="w-full flex items-center justify-between bg-background rounded-sm px-6 py-4 text-left transition-all hover:bg-background/80 shadow-soft"
                 >
-                  <span className="text-base md:text-lg font-light text-[#806751]">
+                  <span className="text-base md:text-lg font-light text-foreground">
                     {item.question}
                   </span>
-                  <span className="ml-4 flex-shrink-0 text-[#806751]">
+                  <span className="ml-4 flex-shrink-0 text-accent">
                     {openIndex === index ? (
                       <Minus className="w-5 h-5" />
                     ) : (

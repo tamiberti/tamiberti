@@ -8,27 +8,30 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Palette Colors - Warm rosé/peach watercolor from cover */
-    --background: 25 33% 95%;
-    --foreground: 18 40% 28%;
-    
-    --card: 25 33% 95%;
-    --card-foreground: 18 40% 28%;
-    
-    --popover: 25 33% 95%;
-    --popover-foreground: 18 40% 28%;
-    
-    --primary: 18 45% 68%;
-    --primary-foreground: 20 42% 22%;
-    
-    --secondary: 22 35% 85%;
-    --secondary-foreground: 18 40% 26%;
-    
-    --muted: 20 28% 65%;
-    --muted-foreground: 18 30% 45%;
-    
-    --accent: 14 50% 74%;
-    --accent-foreground: 18 40% 22%;
+    /* Palette - Josephine inspired: cream, peach, mustard, rosé */
+    --background: 28 40% 94%;
+    --foreground: 20 35% 25%;
+
+    --card: 28 40% 96%;
+    --card-foreground: 20 35% 25%;
+
+    --popover: 28 40% 96%;
+    --popover-foreground: 20 35% 25%;
+
+    /* Peach/rosé block */
+    --primary: 18 55% 82%;
+    --primary-foreground: 20 40% 22%;
+
+    /* Cream block */
+    --secondary: 32 45% 90%;
+    --secondary-foreground: 20 35% 25%;
+
+    --muted: 28 25% 78%;
+    --muted-foreground: 20 25% 40%;
+
+    /* Mustard accent */
+    --accent: 42 65% 65%;
+    --accent-foreground: 20 40% 22%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 25 33% 95%;
