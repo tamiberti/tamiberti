@@ -41,7 +41,7 @@ const Psicoterapia = () => {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-normal text-foreground leading-tight">
               Dúvidas
               <br />
-              <span className="italic">Frequentes</span>
+              <span className="italic">frequentes</span>
             </h2>
           </div>
 
