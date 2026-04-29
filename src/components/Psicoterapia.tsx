@@ -57,12 +57,12 @@ const Psicoterapia = () => {
                 {/* Trigger */}
                 <button
                   onClick={() => toggle(index)}
-                  className="w-full flex items-center justify-between bg-background/60 backdrop-blur-sm rounded-full px-6 py-4 text-left transition-all hover:bg-background/80"
+                  className="w-full flex items-center justify-between bg-background rounded-sm px-6 py-4 text-left transition-all hover:bg-background/80 shadow-soft"
                 >
-                  <span className="text-base md:text-lg font-light text-[#806751]">
+                  <span className="text-base md:text-lg font-light text-foreground">
                     {item.question}
                   </span>
-                  <span className="ml-4 flex-shrink-0 text-[#806751]">
+                  <span className="ml-4 flex-shrink-0 text-accent">
                     {openIndex === index ? (
                       <Minus className="w-5 h-5" />
                     ) : (
