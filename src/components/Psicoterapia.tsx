@@ -41,7 +41,7 @@ const Psicoterapia = () => {
           {/* Left side - Title */}
           <div className="md:w-1/3 flex-shrink-0">
             <p className="font-light text-xs md:text-sm tracking-[0.3em] uppercase text-accent mb-3">
-              Tire suas dúvidas
+              {"\n"}
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-normal text-foreground leading-tight">
               Dúvidas

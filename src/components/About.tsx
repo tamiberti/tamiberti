@@ -27,8 +27,8 @@ const About = () => {
               <p className="font-light text-xs md:text-sm tracking-[0.3em] uppercase text-accent mb-3">
                 Bem-vindo
               </p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-playfair font-normal text-foreground mb-8">
-                Sobre mim
+              <h2 className="text-3xl lg:text-5xl font-playfair font-normal text-foreground mb-8 md:text-sm">
+                {"\n"}
               </h2>
               <div className="space-y-5 text-base md:text-lg leading-relaxed">
                 <p className="text-muted-foreground font-light text-justify">
@@ -57,16 +57,16 @@ const About = () => {
           {/* Currículo block - mustard panel like "How it Works" */}
           <div className="bg-accent/80 rounded-sm p-8 md:p-14 relative">
             <p className="font-light text-xs md:text-sm tracking-[0.3em] uppercase text-accent-foreground/70 mb-3 text-center">
-              Mais detalhes
+              FORMAÇÃO ACADÊMICA
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-playfair font-normal text-accent-foreground mb-10 text-center">
-              Currículo
+              {"\n"}
             </h2>
 
             <div className="space-y-8 max-w-3xl mx-auto">
               <div className="space-y-6">
                 <h3 className="text-xl md:text-2xl font-playfair font-normal text-accent-foreground">
-                  Formação Acadêmica
+                  {"\n"}
                 </h3>
 
                 <div className="space-y-1">

@@ -30,7 +30,7 @@ const Contact = () => {
           {/* Section Title */}
           <div className="space-y-3">
             <p className="font-light text-xs md:text-sm tracking-[0.3em] uppercase text-accent">
-              Vamos conversar
+              {"\n"}
             </p>
             <h2 className="text-3xl md:text-5xl font-playfair font-normal text-foreground">
               Entre em <span className="italic">contato</span>
