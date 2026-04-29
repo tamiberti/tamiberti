@@ -24,7 +24,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-col flex-1">
-              <p className="font-light text-xs md:text-sm tracking-[0.3em] uppercase text-accent mb-3">
+              <p className="font-light text-xs md:text-sm tracking-[0.3em] uppercase text-foreground mb-3">
                 Bem-vindo
               </p>
               <h2 className="text-3xl lg:text-5xl font-playfair font-normal text-foreground mb-8 md:text-sm">

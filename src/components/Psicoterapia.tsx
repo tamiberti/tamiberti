@@ -5,17 +5,17 @@ const faqItems = [
   {
     question: "Quando devo buscar a psicoterapia?",
     answer:
-      "A psicoterapia pode ser buscada em diferentes momentos da vida: quando você sente que precisa de apoio emocional, está passando por um momento difícil, enfrenta mudanças importantes ou simplesmente deseja se conhecer melhor. Não é preciso estar em crise para começar, o cuidado com a saúde mental pode ser preventivo e transformador.",
+      "A psicoterapia pode fazer sentido em diferentes momentos da vida: quando você busca apoio emocional, atravessa um período desafiador, enfrenta mudanças importantes ou simplesmente deseja se conhecer melhor. Não é necessário estar em crise para começar. Cuidar da saúde mental também pode ser um movimento preventivo, de autoconhecimento e de transformação contínua.",
   },
   {
     question: "Quanto tempo dura cada sessão e com que frequência elas acontecem?",
     answer:
-      "Cada sessão tem duração de 50 minutos e, geralmente, ocorre uma vez por semana. No entanto, a frequência pode ser ajustada conforme as necessidades do paciente e a evolução do tratamento.",
+      "Os encontros acontecem uma vez por semana e têm duração de 50 minutos. A frequência pode ser ajustada de acordo com as necessidades do paciente e o andamento do processo terapêutico.",
   },
   {
     question: "Como funcionam as sessões online?",
     answer:
-      "As sessões online acontecem através de plataforma de videochamada. É essencial que o paciente esteja em um local tranquilo, onde possa falar livremente, sem interrupções. Para garantir o melhor aproveitamento da sessão, é importante que o ambiente tenha boa iluminação e uma conexão de internet estável.",
+      "As sessões são realizadas exclusivamente na modalidade online, por meio de plataforma de videochamada. O link de acesso é enviado próximo ao horário da consulta. É importante que o paciente esteja em um local tranquilo, onde possa falar com liberdade e sem interrupções. Para um melhor aproveitamento do atendimento, recomenda-se um ambiente com boa iluminação e conexão de internet estável.",
   },
 ];
 

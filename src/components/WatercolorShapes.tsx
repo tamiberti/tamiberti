@@ -43,7 +43,7 @@ export const BlobRose = ({ className = "" }: { className?: string }) => (
     aria-hidden="true"
   >
     <path
-      fill="hsl(8 60% 80%)"
+      fill="hsl(350 55% 72%)"
       opacity="0.75"
       d="M80,140 C60,70 160,30 230,60 C310,90 380,80 370,170 C360,240 280,270 200,250 C140,235 90,220 80,140 Z"
     />
