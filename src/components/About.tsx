@@ -32,23 +32,18 @@ const About = () => {
               </h2>
               <div className="space-y-5 text-base md:text-lg leading-relaxed">
                 <p className="text-muted-foreground font-light text-justify">
-                  Oi! Que bom te receber por aqui!
+                  Oi! Que bom te receber por aqui.
                 </p>
                 <p className="text-muted-foreground font-light text-justify">
-                  Eu sou a Tami, psicóloga clínica e hospitalar, especialista em Terapia Sistêmica e
-                  Psicologia da Saúde. Ofereço um espaço seguro, acolhedor e ético para quem deseja
-                  compreender suas emoções, reduzir a ansiedade e lidar com o estresse do dia a dia
-                  de uma forma mais saudável e consciente.
+                  Eu sou a Tami, psicóloga formada pela PUCRS. Atuo como psicoterapeuta desde 2021 e
+                  também tenho experiência profissional na psicologia hospitalar, o que amplia meu
+                  olhar para diferentes momentos e contextos da vida.
                 </p>
                 <p className="text-muted-foreground font-light text-justify">
-                  A psicoterapia que ofereço é fundamentada na Terapia Sistêmica e construída de
-                  forma singular para cada pessoa, respeitando sua história, seus vínculos e seu
-                  tempo. Promovo um cuidado humano, empático e comprometido, onde você pode falar
-                  com liberdade, elaborar suas experiências e criar novos caminhos com mais clareza
-                  e autonomia.
-                </p>
-                <p className="text-muted-foreground font-light text-justify">
-                  Se fizer sentido para você, será um prazer caminharmos juntos!
+                  Meu trabalho é orientado pela Terapia Sistêmica, uma abordagem que considera as
+                  relações, os contextos e os padrões que atravessam a sua história, ampliando o
+                  olhar para além do indivíduo e favorecendo novas formas de compreender e lidar com
+                  as experiências.
                 </p>
               </div>
             </div>
