@@ -17,11 +17,6 @@ const faqItems = [
     answer:
       "As sessões online acontecem através de plataforma de videochamada. É essencial que o paciente esteja em um local tranquilo, onde possa falar livremente, sem interrupções. Para garantir o melhor aproveitamento da sessão, é importante que o ambiente tenha boa iluminação e uma conexão de internet estável.",
   },
-  {
-    question: "Qual o valor da sessão?",
-    answer:
-      "Para maiores informações entre em contato pelo WhatsApp.",
-  },
 ];
 
 const Psicoterapia = () => {
