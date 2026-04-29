@@ -17,7 +17,7 @@ const Hero = () => {
           Psicóloga Clínica
         </p>
         <h1 className="font-playfair text-4xl md:text-6xl lg:text-7xl font-normal text-foreground leading-tight">
-          Tami Berti
+          TAMI BERTI
         </h1>
         <div className="mt-6 mx-auto w-16 h-px bg-foreground/40" />
         <p className="mt-6 font-light text-base md:text-lg text-muted-foreground italic">
