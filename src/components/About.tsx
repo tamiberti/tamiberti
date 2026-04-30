@@ -45,6 +45,9 @@ const About = () => {
                   olhar para além do indivíduo e favorecendo novas formas de compreender e lidar com
                   as experiências.
                 </p>
+                <p className="text-muted-foreground font-light text-justify">
+                  Na psicoterapia, cada processo é único e construído com cuidado, respeitando seu tempo, sua história e aquilo que faz sentido para você. Será um prazer caminhar ao seu lado!
+                </p>
               </div>
             </div>
           </div>
